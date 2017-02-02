@@ -1,0 +1,2792 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 wp14">
+  <w:body>
+    <w:p w:rsidRPr="0051718F" w:rsidR="00B42F3C" w:rsidP="00B42F3C" w:rsidRDefault="00B42F3C">
+      <w:pPr>
+        <w:jc w:val="center" />
+        <w:rPr>
+          <w:b />
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:rPr>
+          <w:b />
+        </w:rPr>
+        <w:t>ЛИЦЕНЗИОНН</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="000D07F3">
+        <w:rPr>
+          <w:b />
+        </w:rPr>
+        <w:t>ЫЙ</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:rPr>
+          <w:b />
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="000D07F3">
+        <w:rPr>
+          <w:b />
+        </w:rPr>
+        <w:t xml:space="preserve">ДОГОВОР </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00D20D81">
+        <w:rPr>
+          <w:b />
+        </w:rPr>
+        <w:t xml:space="preserve">№ </w:t>
+      </w:r>
+      <w:r w:rsidR="00566F68">
+        <w:rPr>
+          <w:b />
+        </w:rPr>
+        <w:fldChar w:fldCharType="begin" />
+      </w:r>
+      <w:r w:rsidR="00566F68">
+        <w:rPr>
+          <w:b />
+        </w:rPr>
+        <w:instrText xml:space="preserve"> MERGEFIELD  "Номер договора"  \* MERGEFORMAT </w:instrText>
+      </w:r>
+      <w:r w:rsidR="00566F68">
+        <w:rPr>
+          <w:b />
+        </w:rPr>
+        <w:fldChar w:fldCharType="separate" />
+      </w:r>
+      <w:r w:rsidR="00566F68">
+        <w:rPr>
+          <w:b />
+          <w:noProof />
+        </w:rPr>
+        <w:t>«Номер договора»</w:t>
+      </w:r>
+      <w:r w:rsidR="00566F68">
+        <w:rPr>
+          <w:b />
+        </w:rPr>
+        <w:fldChar w:fldCharType="end" />
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00910158">
+        <w:rPr>
+          <w:b />
+        </w:rPr>
+        <w:br />
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:rPr>
+          <w:b />
+        </w:rPr>
+        <w:t>НА ИСПОЛЬЗОВАНИЕ ПРОГРАММНОГО ПРОДУКТА</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00BD684B">
+        <w:rPr>
+          <w:b />
+        </w:rPr>
+        <w:br />
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:rPr>
+          <w:b />
+        </w:rPr>
+        <w:t>«</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="0058099D">
+        <w:rPr>
+          <w:b />
+        </w:rPr>
+        <w:t>Модуль</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:rPr>
+          <w:b />
+        </w:rPr>
+        <w:t xml:space="preserve"> склонения по падежам </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="002130A6">
+        <w:rPr>
+          <w:b />
+        </w:rPr>
+        <w:t xml:space="preserve">на русском языке </w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart" />
+      <w:r w:rsidRPr="0051718F">
+        <w:rPr>
+          <w:b />
+          <w:lang w:val="en-GB" />
+        </w:rPr>
+        <w:t>Morpher</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd" />
+      <w:r w:rsidRPr="0051718F">
+        <w:rPr>
+          <w:b />
+        </w:rPr>
+        <w:t>.</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart" />
+      <w:r w:rsidRPr="0051718F" w:rsidR="00BD684B">
+        <w:rPr>
+          <w:b />
+          <w:lang w:val="en-GB" />
+        </w:rPr>
+        <w:t>dll</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd" />
+      <w:r w:rsidRPr="0051718F">
+        <w:rPr>
+          <w:b />
+        </w:rPr>
+        <w:t>»</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:w="0" w:type="auto" />
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1" />
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="5000" />
+        <w:gridCol w:w="4889" />
+      </w:tblGrid>
+      <w:tr w:rsidRPr="0051718F" w:rsidR="00D20D81" w:rsidTr="00B0403C">
+        <w:trPr>
+          <w:trHeight w:val="539" />
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5000" w:type="dxa" />
+            <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+          </w:tcPr>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00D20D81" w:rsidP="00815E28" w:rsidRDefault="00D20D81">
+            <w:pPr>
+              <w:rPr>
+                <w:b />
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:b />
+              </w:rPr>
+              <w:t xml:space="preserve">г. </w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="00815E28">
+              <w:rPr>
+                <w:b />
+              </w:rPr>
+              <w:fldChar w:fldCharType="begin" />
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="00815E28">
+              <w:rPr>
+                <w:b />
+              </w:rPr>
+              <w:instrText xml:space="preserve"> MERGEFIELD  Город  \* MERGEFORMAT </w:instrText>
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="00815E28">
+              <w:rPr>
+                <w:b />
+              </w:rPr>
+              <w:fldChar w:fldCharType="separate" />
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="00815E28">
+              <w:rPr>
+                <w:b />
+                <w:noProof />
+              </w:rPr>
+              <w:t>«Город»</w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="00815E28">
+              <w:rPr>
+                <w:b />
+              </w:rPr>
+              <w:fldChar w:fldCharType="end" />
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="4889" w:type="dxa" />
+            <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+          </w:tcPr>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00D20D81" w:rsidP="00A403A9" w:rsidRDefault="00EA6676">
+            <w:pPr>
+              <w:jc w:val="right" />
+            </w:pPr>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:b />
+              </w:rPr>
+              <w:fldChar w:fldCharType="begin" />
+            </w:r>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:b />
+              </w:rPr>
+              <w:instrText xml:space="preserve"> MERGEFIELD  "Дата договора"  \* MERGEFORMAT </w:instrText>
+            </w:r>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:b />
+              </w:rPr>
+              <w:fldChar w:fldCharType="separate" />
+            </w:r>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:b />
+                <w:noProof />
+              </w:rPr>
+              <w:t>«Дата договора»</w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:b />
+              </w:rPr>
+              <w:fldChar w:fldCharType="end" />
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w:rsidRPr="0051718F" w:rsidR="005A13FF" w:rsidP="00E31D89" w:rsidRDefault="005A13FF">
+      <w:pPr>
+        <w:pStyle w:val="a1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve">Стороны </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00CD479F">
+        <w:t>Д</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="000D07F3">
+        <w:t>оговора</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="00A1469D" w:rsidP="00E31D89" w:rsidRDefault="00D57C17">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r>
+        <w:fldChar w:fldCharType="begin" />
+      </w:r>
+      <w:r>
+        <w:instrText xml:space="preserve"> MERGEFIELD  "Полное наименование"  \* MERGEFORMAT </w:instrText>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="separate" />
+      </w:r>
+      <w:r w:rsidR="00286EF7">
+        <w:rPr>
+          <w:noProof />
+        </w:rPr>
+        <w:t>«Полное наименование»</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:noProof />
+        </w:rPr>
+        <w:fldChar w:fldCharType="end" />
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00684A8E">
+        <w:t xml:space="preserve"> (</w:t>
+      </w:r>
+      <w:fldSimple w:instr=" MERGEFIELD  &quot;Краткое наименование&quot;  \* MERGEFORMAT ">
+        <w:r w:rsidR="00286EF7">
+          <w:rPr>
+            <w:noProof />
+          </w:rPr>
+          <w:t>«Краткое наименование»</w:t>
+        </w:r>
+      </w:fldSimple>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00684A8E">
+        <w:t>)</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="002D54AF">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00BD684B">
+        <w:t xml:space="preserve">в лице </w:t>
+      </w:r>
+      <w:fldSimple w:instr=" MERGEFIELD  &quot;Должность представителя (родительный)&quot;  \* MERGEFORMAT ">
+        <w:r w:rsidR="00CA2260">
+          <w:rPr>
+            <w:noProof />
+          </w:rPr>
+          <w:t>«Должность представителя (родительный)»</w:t>
+        </w:r>
+      </w:fldSimple>
+      <w:r w:rsidRPr="0056610B" w:rsidR="0056610B">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="begin" />
+      </w:r>
+      <w:r>
+        <w:instrText xml:space="preserve"> MERGEFIELD  "ФИО представителя (родительный)"  \* MERGEFORMAT </w:instrText>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="separate" />
+      </w:r>
+      <w:r w:rsidR="00CA2260">
+        <w:rPr>
+          <w:noProof />
+        </w:rPr>
+        <w:t>«ФИО представителя (родительный)»</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:noProof />
+        </w:rPr>
+        <w:fldChar w:fldCharType="end" />
+      </w:r>
+      <w:r w:rsidRPr="009D0E53" w:rsidR="0056610B">
+        <w:t>,</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0056610B" w:rsidR="0056610B">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00BD684B">
+        <w:t>действующего</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00D20D81">
+        <w:t xml:space="preserve"> на основании Устава,</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00EC63B3">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00BD684B">
+        <w:rPr>
+          <w:lang w:val="uk-UA" />
+        </w:rPr>
+        <w:t>именуем</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00BD684B">
+        <w:t xml:space="preserve">ое далее «Лицензиат», </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00B42F3C">
+        <w:t xml:space="preserve">и </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="002D5A43">
+        <w:t xml:space="preserve">гражданин Российской Федерации </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00C417C5">
+        <w:t xml:space="preserve">Слепов </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00B42F3C">
+        <w:t>Серге</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00BD684B">
+        <w:t>й Николаевич, именуемый далее</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00B42F3C">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="000B57D0">
+        <w:t>«</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="007276EA">
+        <w:t>Лицензиар</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="000B57D0">
+        <w:t>»</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00BD684B">
+        <w:t>,</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00EC63B3">
+        <w:t xml:space="preserve"> паспорт № </w:t>
+      </w:r>
+      <w:fldSimple w:instr=" MERGEFIELD  &quot;№ паспорта Лицензиара&quot;  \* MERGEFORMAT ">
+        <w:r w:rsidRPr="0051718F" w:rsidR="00815E28">
+          <w:rPr>
+            <w:noProof />
+          </w:rPr>
+          <w:t>«№ паспорта Лицензиара»</w:t>
+        </w:r>
+      </w:fldSimple>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00815E28">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00EC63B3">
+        <w:t xml:space="preserve">выдан </w:t>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="begin" />
+      </w:r>
+      <w:r>
+        <w:instrText xml:space="preserve"> MERGEFIELD  "Дата выдачи паспорта Лицензиара"  \* MERGEFORMAT </w:instrText>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="separate" />
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00815E28">
+        <w:rPr>
+          <w:noProof />
+        </w:rPr>
+        <w:t>«Дата выдачи паспорта Лицензиара»</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:noProof />
+        </w:rPr>
+        <w:fldChar w:fldCharType="end" />
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00320765">
+        <w:rPr>
+          <w:lang w:val="en-GB" />
+        </w:rPr>
+        <w:t> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00320765">
+        <w:t xml:space="preserve">г. </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00BD684B">
+        <w:t>заключили настоящий договор (далее «Договор</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00A403A9">
+        <w:rPr>
+          <w:lang w:val="uk-UA" />
+        </w:rPr>
+        <w:t>»</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00BD684B">
+        <w:t>) о нижеследующем:</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="00B42F3C" w:rsidP="00E31D89" w:rsidRDefault="00B42F3C">
+      <w:pPr>
+        <w:pStyle w:val="a1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve">Предмет </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00CD479F">
+        <w:t>Д</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="000D07F3">
+        <w:t>оговора</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="00B42F3C" w:rsidP="001A2C68" w:rsidRDefault="001A2C68">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="001A2C68">
+        <w:t>По настоящему Договору Лицензиар передает, а Лицензиат принимает право использования  Программного продукта</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="003B436C">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="002D5A43">
+        <w:t>«</w:t>
+      </w:r>
+      <w:r>
+        <w:t>Программа</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="002D5A43">
+        <w:t xml:space="preserve"> склонения по падежам на русском языке Morpher.</w:t>
+      </w:r>
+      <w:proofErr w:type="spellStart" />
+      <w:r w:rsidRPr="0051718F" w:rsidR="00BD684B">
+        <w:rPr>
+          <w:lang w:val="en-GB" />
+        </w:rPr>
+        <w:t>dll</w:t>
+      </w:r>
+      <w:proofErr w:type="spellEnd" />
+      <w:r w:rsidRPr="0051718F" w:rsidR="002D5A43">
+        <w:t xml:space="preserve"> для</w:t>
+      </w:r>
+      <w:r w:rsidR="001179C0">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidR="00D57C17">
+        <w:fldChar w:fldCharType="begin" />
+      </w:r>
+      <w:r w:rsidR="00D57C17">
+        <w:instrText xml:space="preserve"> MERGEFIELD  Продукт  \* MERGEFORMAT </w:instrText>
+      </w:r>
+      <w:r w:rsidR="00D57C17">
+        <w:fldChar w:fldCharType="separate" />
+      </w:r>
+      <w:r w:rsidR="001179C0">
+        <w:rPr>
+          <w:noProof />
+        </w:rPr>
+        <w:t>«Продукт»</w:t>
+      </w:r>
+      <w:r w:rsidR="00D57C17">
+        <w:rPr>
+          <w:noProof />
+        </w:rPr>
+        <w:fldChar w:fldCharType="end" />
+      </w:r>
+      <w:r w:rsidR="001179C0">
+        <w:t>»</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="002130A6">
+        <w:t xml:space="preserve"> (далее «Программный продукт» или</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="002D5A43">
+        <w:t xml:space="preserve"> «Модуль»)</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00B42F3C">
+        <w:t xml:space="preserve">. </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="00B42F3C" w:rsidP="00E31D89" w:rsidRDefault="009E6975">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve">Все положения настоящего </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="000D07F3">
+        <w:t>Договора</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00B42F3C">
+        <w:t>  относятся к Программному продукту в целом, так и ко</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00B36E5E">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00B42F3C">
+        <w:t>всем его компонентам в отдельности</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="006716B4">
+        <w:t>, включая документацию на Программный продукт</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00B42F3C">
+        <w:t xml:space="preserve">. </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="005A13FF" w:rsidP="004D37C2" w:rsidRDefault="00996DE5">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve">Все исключительные и неисключительные права на </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="005A13FF">
+        <w:t>Программный продукт, включая документацию и исходный текст</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00AA6C6E">
+        <w:t>,</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="005A13FF">
+        <w:t xml:space="preserve"> принадлежат </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="007276EA">
+        <w:t>Лицензиару</w:t>
+      </w:r>
+      <w:r w:rsidR="00785064">
+        <w:t xml:space="preserve"> на основании свидетельства</w:t>
+      </w:r>
+      <w:r w:rsidRPr="004D37C2" w:rsidR="004D37C2">
+        <w:t xml:space="preserve"> о государственной регистрации программы для ЭВМ №</w:t>
+      </w:r>
+      <w:r w:rsidR="00785064">
+        <w:t xml:space="preserve"> 2012613019 от 28 марта 2012 г.</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="005A13FF">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="005A13FF" w:rsidP="00E31D89" w:rsidRDefault="005A13FF">
+      <w:pPr>
+        <w:pStyle w:val="a1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve">Срок </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="000D07F3">
+        <w:t>договора</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="004F7A81" w:rsidP="004F7A81" w:rsidRDefault="004F7A81">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Договор вступает в законную силу с даты, указанной в шапке договора.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="004F7A81" w:rsidP="004F7A81" w:rsidRDefault="004F7A81">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve">Договор </w:t>
+      </w:r>
+      <w:r w:rsidR="00287AFD">
+        <w:t>является бессрочным</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="00812F02" w:rsidP="00E31D89" w:rsidRDefault="008449D9">
+      <w:pPr>
+        <w:pStyle w:val="a1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Цена Договора</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00812F02" w:rsidP="001A2C68" w:rsidRDefault="001A2C68">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="001A2C68">
+        <w:t>Лицензиат обязуется уплатить Лицензиару сумму в размере</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00812F02">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:fldSimple w:instr=" MERGEFIELD  &quot;Цена (цифрами и прописью)&quot;  \* MERGEFORMAT ">
+        <w:r w:rsidR="00B21132">
+          <w:rPr>
+            <w:noProof />
+          </w:rPr>
+          <w:t>«Цена (цифрами и прописью)»</w:t>
+        </w:r>
+      </w:fldSimple>
+      <w:r>
+        <w:t>,</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="004F7A81">
+        <w:t xml:space="preserve"> включа</w:t>
+      </w:r>
+      <w:r>
+        <w:t>я</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="004F7A81">
+        <w:t xml:space="preserve"> НДФЛ</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="001A2C68">
+        <w:t>(налог на доходы физических лиц)</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00812F02">
+        <w:t xml:space="preserve">. </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00AB1457">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="004F7A81">
+        <w:t>Передача п</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00AB1457">
+        <w:t>рав на использование Программного продукта НДС не облага</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="004F7A81">
+        <w:t>е</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00AB1457">
+        <w:t>тся в соответствии с пп. 26 п. 2 ст. 149 Налогового кодекса Российской Федерации.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="001A2C68" w:rsidP="001A2C68" w:rsidRDefault="001A2C68">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r>
+        <w:t>Лицензиат выступает налоговым агентом и уплачивает НДФЛ в соотв</w:t>
+      </w:r>
+      <w:bookmarkStart w:name="_GoBack" w:id="0" />
+      <w:bookmarkEnd w:id="0" />
+      <w:r>
+        <w:t>етствующий налоговый орган.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="00811C3E" w:rsidP="00E31D89" w:rsidRDefault="00811C3E">
+      <w:pPr>
+        <w:pStyle w:val="a1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Порядок расчетов</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="00811C3E" w:rsidP="00E31D89" w:rsidRDefault="00811C3E">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Лицензиат оплачивает Лицензию</w:t>
+      </w:r>
+      <w:r w:rsidR="00BE5E39">
+        <w:t xml:space="preserve"> в течение 30 (Тридцати) календарных дней с даты подписания настоящего Договора путем перевода денежных средств на счет Лицензиара, указанный в п. </w:t>
+      </w:r>
+      <w:r w:rsidR="00BE5E39">
+        <w:fldChar w:fldCharType="begin" />
+      </w:r>
+      <w:r w:rsidR="00BE5E39">
+        <w:instrText xml:space="preserve"> REF _Ref309625663 \r \h </w:instrText>
+      </w:r>
+      <w:r w:rsidR="00BE5E39">
+        <w:fldChar w:fldCharType="separate" />
+      </w:r>
+      <w:r w:rsidR="00BE5E39">
+        <w:t>12</w:t>
+      </w:r>
+      <w:r w:rsidR="00BE5E39">
+        <w:fldChar w:fldCharType="end" />
+      </w:r>
+      <w:r w:rsidRPr="00BE5E39" w:rsidR="00BE5E39">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00BE5E39">
+        <w:t>настоящего Договора</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00785064" w:rsidP="00785064" w:rsidRDefault="00785064">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Лицензиар предоставляет Лицензиату права использования Программн</w:t>
+      </w:r>
+      <w:r>
+        <w:t>ого</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve"> продукт</w:t>
+      </w:r>
+      <w:r>
+        <w:t>а</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve"> в течение 7 (Семи) календарных дней с момента оплаты.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00785064" w:rsidP="00785064" w:rsidRDefault="00785064">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">Право </w:t>
+      </w:r>
+      <w:r w:rsidRPr="006F0E1F">
+        <w:t xml:space="preserve">использования </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Программного продукта</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> предоставляется Л</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006F0E1F">
+        <w:t>ицензиату пут</w:t>
+      </w:r>
+      <w:r>
+        <w:t>е</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006F0E1F">
+        <w:t>м подписания Сторонами Акта при</w:t>
+      </w:r>
+      <w:r>
+        <w:t>е</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006F0E1F">
+        <w:t xml:space="preserve">ма-передачи прав. С момента подписания право использования </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Программного продукта</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006F0E1F">
+        <w:t xml:space="preserve"> считается предоставленным </w:t>
+      </w:r>
+      <w:r>
+        <w:t>Л</w:t>
+      </w:r>
+      <w:r w:rsidRPr="006F0E1F">
+        <w:t>ицензиату</w:t>
+      </w:r>
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00785064" w:rsidP="00785064" w:rsidRDefault="00785064">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r>
+        <w:lastRenderedPageBreak />
+        <w:t xml:space="preserve">Одновременно с предоставлением прав </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve">Лицензиар </w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">открывает доступ к использованию </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Программного продукта</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> путем передачи Лицензиату </w:t>
+      </w:r>
+      <w:r w:rsidRPr="00423629">
+        <w:t>экземпляр</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">ов </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Программного продукта</w:t>
+      </w:r>
+      <w:r w:rsidRPr="00423629">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">включая </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>документацию</w:t>
+      </w:r>
+      <w:r w:rsidRPr="00423629">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve">по электронной почте, адрес которой указан в п. </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:fldChar w:fldCharType="begin" />
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:instrText xml:space="preserve"> REF _Ref309625663 \r \h </w:instrText>
+      </w:r>
+      <w:r>
+        <w:instrText xml:space="preserve"> \* MERGEFORMAT </w:instrText>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:fldChar w:fldCharType="separate" />
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>12</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:fldChar w:fldCharType="end" />
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve"> настоящего Договора.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="003D1DF0" w:rsidP="00E31D89" w:rsidRDefault="00F208AB">
+      <w:pPr>
+        <w:pStyle w:val="a1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Условия договора</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="0012055D" w:rsidP="0012055D" w:rsidRDefault="0012055D">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Все перечисленные ниже условия должны быть соблюдены одновременно в течение всего срока действия Договора.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="00F92B0B" w:rsidP="0012055D" w:rsidRDefault="00B54017">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve">Лицензиар передает </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00F92B0B">
+        <w:t>Лицензиат</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>у</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00F92B0B">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>неисключительные права</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00BD684B">
+        <w:t xml:space="preserve"> на</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00F92B0B">
+        <w:t> использования Программного продукта в объеме, предусмотренном пункт</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00F75B7E">
+        <w:t>ом</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00F92B0B">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00F92B0B">
+        <w:fldChar w:fldCharType="begin" />
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00F92B0B">
+        <w:instrText xml:space="preserve"> REF _Ref280298466 \r \h </w:instrText>
+      </w:r>
+      <w:r w:rsidR="0051718F">
+        <w:instrText xml:space="preserve"> \* MERGEFORMAT </w:instrText>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00F92B0B">
+        <w:fldChar w:fldCharType="separate" />
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00050908">
+        <w:t>8</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00F92B0B">
+        <w:fldChar w:fldCharType="end" />
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00F92B0B">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="0012055D">
+        <w:t xml:space="preserve">Договора </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00F92B0B">
+        <w:t>«Условия использования</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00F75B7E">
+        <w:t xml:space="preserve"> Модуля</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00F92B0B">
+        <w:t>».</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="003D1DF0" w:rsidP="00E31D89" w:rsidRDefault="003D1DF0">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Все договоренности между Лицензиаром и Лицензиатом касательно Программного продукта, устные и письменные, предшествовавшие заключению данного Договора, считаются недействительными.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="00CC28AB" w:rsidP="00E31D89" w:rsidRDefault="00CC28AB">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>В случае если суд</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="001041FB">
+        <w:t xml:space="preserve"> признает какие-либо положения н</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve">астоящего </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="001041FB">
+        <w:t>Д</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>оговора недействительными, Договор продолжает действовать в остальной части.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="0012055D" w:rsidP="0012055D" w:rsidRDefault="0012055D">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Лицензиат</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00DE7761">
+        <w:rPr>
+          <w:lang w:val="uk-UA" />
+        </w:rPr>
+        <w:t xml:space="preserve"> получает</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve"> право включать (встраивать) Модуль в состав только тех программных продуктов, </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00DE7761">
+        <w:rPr>
+          <w:lang w:val="uk-UA" />
+        </w:rPr>
+        <w:t>исключительн</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00DE7761">
+        <w:t>ы</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00DE7761">
+        <w:rPr>
+          <w:lang w:val="uk-UA" />
+        </w:rPr>
+        <w:t xml:space="preserve">е </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve">права на которые </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00DE7761">
+        <w:rPr>
+          <w:lang w:val="uk-UA" />
+        </w:rPr>
+        <w:t xml:space="preserve">полностью и безраздельно </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve">принадлежат Лицензиату (далее – «ПО»). </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="00DE7761" w:rsidP="00DE7761" w:rsidRDefault="00DE7761">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>При передаче Лицензиатом своих исключительных прав на программные продукты, в которые встроен Модуль, Лицензиат обязан за 30 (тридцать) календарных дней до предполагаемой даты передачи прав письменно уведомить Лицензиара о своем намерении произвести передачу исключительных прав на соответствующие Программные продукты.  Если на момент заключения Договора передача прав уже состоялась или до предполагаемой передачи осталось менее 30 (тридцати) календарных дней, Лицензиат обязан уведомить об этом Лицензиара до заключения данного Договора.  Новый правообладатель может использовать Модуль только после заключения нового лицензионного договора с Лицензиаром.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="0012055D" w:rsidP="0012055D" w:rsidRDefault="0012055D">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Лицензиат обязуется не распространять Программный продукт отдельно от своего ПО.  Под распространением Программного продукта понимается предоставление доступа третьим лицам к воспроизведенному в любой форме Программному продукту. Под третьими лицами понимаются все лица, исключая Стороны данного Договора и работников, нанятых Лицензиатом по трудовому договору или договору подряда.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="0012055D" w:rsidP="0012055D" w:rsidRDefault="0012055D">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Лицензиат обязуется включить в каждый экземпляр ПО ссылку на Лицензиара следующего содержания: «Функции склонения по падежам © Сергей Слепов 2003 г, morpher.ru». Часть ссылки «morpher.ru» должна быть гиперссылкой. Знак © может быть заменен на (</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:rPr>
+          <w:lang w:val="en-GB" />
+        </w:rPr>
+        <w:t>c</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>).  Ссылка должна быть помещена рядом со знаком охраны авторского права на ПО, если таковой имеется (ст.ст. 1265, 1271 ГК РФ).</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="0012055D" w:rsidP="0012055D" w:rsidRDefault="0012055D">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:bookmarkStart w:name="_Ref280298466" w:id="1" />
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Склонение по падежам не должно быть основной функцией ПО Лицензиата.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="00A069E4" w:rsidP="00E31D89" w:rsidRDefault="00B42F3C">
+      <w:pPr>
+        <w:pStyle w:val="a1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Условия использования</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00812F02">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:bookmarkEnd w:id="1" />
+      <w:r w:rsidRPr="0051718F" w:rsidR="00F208AB">
+        <w:t>Модуля</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="0012055D" w:rsidP="0012055D" w:rsidRDefault="0012055D">
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Лицензиат получает право:</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="00785064" w:rsidP="00785064" w:rsidRDefault="00785064">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r>
+        <w:t>Ипользовать Модуль по назначению</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="001F2F37" w:rsidP="001F2F37" w:rsidRDefault="0012055D">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>К</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="001F2F37">
+        <w:t>опировать Модуль и передавать его по каналам связи.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="001F2F37" w:rsidP="001F2F37" w:rsidRDefault="0012055D">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>И</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="001F2F37">
+        <w:t>спользовать результаты работы Модуля любым способом.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="00EE245B" w:rsidP="00E31D89" w:rsidRDefault="00EE245B">
+      <w:pPr>
+        <w:pStyle w:val="a1" />
+      </w:pPr>
+      <w:bookmarkStart w:name="_Ref280303367" w:id="2" />
+      <w:r w:rsidRPr="0051718F">
+        <w:lastRenderedPageBreak />
+        <w:t>Гаранти</w:t>
+      </w:r>
+      <w:bookmarkEnd w:id="2" />
+      <w:r w:rsidRPr="0051718F" w:rsidR="009E3F26">
+        <w:t>йные обязательства</w:t>
+      </w:r>
+      <w:r w:rsidR="009E3042">
+        <w:t xml:space="preserve"> и техническая поддержка</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="009E3F26" w:rsidP="00E31D89" w:rsidRDefault="009E3F26">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:bookmarkStart w:name="_Ref297205539" w:id="3" />
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Лицензиар гарантирует отсутствие в Модуле технических дефектов, приводящих к возникновению недокументированных исключений (exceptions), утечкам памяти или «зависаниям» вызывающей программы.</w:t>
+      </w:r>
+      <w:bookmarkEnd w:id="3" />
+    </w:p>
+    <w:p w:rsidR="00713AD2" w:rsidP="00713AD2" w:rsidRDefault="00713AD2">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>В случае обнаружения в Модуле дефектов, перечисленных в п.</w:t>
+      </w:r>
+      <w:r w:rsidR="006D7632">
+        <w:rPr>
+          <w:lang w:val="en-GB" />
+        </w:rPr>
+        <w:t> </w:t>
+      </w:r>
+      <w:r w:rsidR="006D7632">
+        <w:rPr>
+          <w:lang w:val="en-GB" />
+        </w:rPr>
+        <w:fldChar w:fldCharType="begin" />
+      </w:r>
+      <w:r w:rsidRPr="00CA2260" w:rsidR="006D7632">
+        <w:instrText xml:space="preserve"> </w:instrText>
+      </w:r>
+      <w:r w:rsidR="006D7632">
+        <w:rPr>
+          <w:lang w:val="en-GB" />
+        </w:rPr>
+        <w:instrText>REF</w:instrText>
+      </w:r>
+      <w:r w:rsidRPr="00CA2260" w:rsidR="006D7632">
+        <w:instrText xml:space="preserve"> _</w:instrText>
+      </w:r>
+      <w:r w:rsidR="006D7632">
+        <w:rPr>
+          <w:lang w:val="en-GB" />
+        </w:rPr>
+        <w:instrText>Ref</w:instrText>
+      </w:r>
+      <w:r w:rsidRPr="00CA2260" w:rsidR="006D7632">
+        <w:instrText>297205539 \</w:instrText>
+      </w:r>
+      <w:r w:rsidR="006D7632">
+        <w:rPr>
+          <w:lang w:val="en-GB" />
+        </w:rPr>
+        <w:instrText>r</w:instrText>
+      </w:r>
+      <w:r w:rsidRPr="00CA2260" w:rsidR="006D7632">
+        <w:instrText xml:space="preserve"> \</w:instrText>
+      </w:r>
+      <w:r w:rsidR="006D7632">
+        <w:rPr>
+          <w:lang w:val="en-GB" />
+        </w:rPr>
+        <w:instrText>h</w:instrText>
+      </w:r>
+      <w:r w:rsidRPr="00CA2260" w:rsidR="006D7632">
+        <w:instrText xml:space="preserve"> </w:instrText>
+      </w:r>
+      <w:r w:rsidR="006D7632">
+        <w:rPr>
+          <w:lang w:val="en-GB" />
+        </w:rPr>
+      </w:r>
+      <w:r w:rsidR="006D7632">
+        <w:rPr>
+          <w:lang w:val="en-GB" />
+        </w:rPr>
+        <w:fldChar w:fldCharType="separate" />
+      </w:r>
+      <w:r w:rsidRPr="00CA2260" w:rsidR="006D7632">
+        <w:t>8.1</w:t>
+      </w:r>
+      <w:r w:rsidR="006D7632">
+        <w:rPr>
+          <w:lang w:val="en-GB" />
+        </w:rPr>
+        <w:fldChar w:fldCharType="end" />
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve">, Лицензиар обязуется </w:t>
+      </w:r>
+      <w:r>
+        <w:t>устранить</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve"> эти дефекты в недельный срок при условии предоставления Лицензиатом способа воспроизведения указанн</w:t>
+      </w:r>
+      <w:r>
+        <w:t>ых</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve"> дефект</w:t>
+      </w:r>
+      <w:r>
+        <w:t>ов</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="009E3042" w:rsidP="009E3042" w:rsidRDefault="009E3042">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve">Лицензиар обязуется предоставлять Лицензиату техническую поддержку </w:t>
+      </w:r>
+      <w:r>
+        <w:t>в виде консультаций</w:t>
+      </w:r>
+      <w:r w:rsidR="003D3B6C">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="003D3B6C">
+        <w:t>по вопросам, касающимся использования Модуля</w:t>
+      </w:r>
+      <w:r w:rsidR="003D3B6C">
+        <w:t>,</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="003D3B6C">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve">по электронной почте или через сайт </w:t>
+      </w:r>
+      <w:hyperlink w:history="1" r:id="rId9">
+        <w:r w:rsidRPr="0051718F">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink" />
+          </w:rPr>
+          <w:t>www.morpher.ru</w:t>
+        </w:r>
+      </w:hyperlink>
+      <w:r w:rsidR="003D3B6C">
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="009E3F26" w:rsidP="009E3F26" w:rsidRDefault="003D3B6C">
+      <w:pPr>
+        <w:pStyle w:val="a1" />
+      </w:pPr>
+      <w:r>
+        <w:t>Приобретение новых версий Модуля</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidR="00EE245B" w:rsidP="003D3B6C" w:rsidRDefault="003D3B6C">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r>
+        <w:t>В</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00297BAA">
+        <w:t xml:space="preserve"> течение 1 </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="001F2F37">
+        <w:t>(</w:t>
+      </w:r>
+      <w:r>
+        <w:t>О</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="001F2F37">
+        <w:t xml:space="preserve">дного) </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00B14025">
+        <w:t xml:space="preserve">года с момента </w:t>
+      </w:r>
+      <w:r>
+        <w:t>передачи прав на Модуль Лицензиат имеет право получать новые версии</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00B14025">
+        <w:t xml:space="preserve"> Модуля </w:t>
+      </w:r>
+      <w:r>
+        <w:t>бесплатно.  Для этого достаточно направить Лицензиару запрос по электронной почте, указанной в п. 12 настоящего Договора.  Лицензиар обязуется удовлетворить запрос в течение 7 (Семи) календарных дней.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="003D3B6C" w:rsidP="003D3B6C" w:rsidRDefault="003D3B6C">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">По истечении 1 (Одного) года </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve">момента </w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">передачи прав на Модуль приобретение новых версий оформляется отдельным договором.  Лицензиар получает право приобрести </w:t>
+      </w:r>
+      <w:r w:rsidR="004724E2">
+        <w:t>новую версию Модуля со скидкой</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> 50%.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="00D55E3C" w:rsidP="00E31D89" w:rsidRDefault="00D55E3C">
+      <w:pPr>
+        <w:pStyle w:val="a1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Ответственность</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="00B14025" w:rsidP="00E31D89" w:rsidRDefault="001F2F37">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Лицензиар</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00B14025">
+        <w:t xml:space="preserve"> не нес</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="004B401A">
+        <w:t>е</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00B14025">
+        <w:t>т ответственности за какой-либо ущерб, связанный с использованием или невозможностью использования Модуля.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="00B42F3C" w:rsidP="00E31D89" w:rsidRDefault="00B42F3C">
+      <w:pPr>
+        <w:pStyle w:val="a1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve">Изменение и расторжение </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00453BB3">
+        <w:t>Д</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="000D07F3">
+        <w:t>оговора</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="00297BAA" w:rsidP="00E31D89" w:rsidRDefault="00297BAA">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Договор может быть расторгнут по взаимному письменному соглашению Сторон.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="00B42F3C" w:rsidP="00E31D89" w:rsidRDefault="00B42F3C">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve">В случае нарушения </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="001F2F37">
+        <w:t>Лицензиатом</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00CC28AB">
+        <w:t>условий данного Договора</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="001041FB">
+        <w:t xml:space="preserve"> или законодательства Российской Федерации в отношении Программного продукта</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve">, </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="001F2F37">
+        <w:t>Лицензиар</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve"> имеет</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00583A1E">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>право в одностороннем порядке расторгнуть настоящ</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="005C44F5">
+        <w:t>ий</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00CC28AB">
+        <w:t>Д</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="000D07F3">
+        <w:t>оговор</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t>, уведомив об этом</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00583A1E">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="001F2F37">
+        <w:t>Лицензиата</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve">. </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="004F7A81" w:rsidP="004F7A81" w:rsidRDefault="004F7A81">
+      <w:pPr>
+        <w:pStyle w:val="1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:t xml:space="preserve">По окончании действия или при расторжении настоящего Договора или в случае, если Договор будет признан недействительным, Лицензиат обязан прекратить использование Модуля, удалить все доступные ему копии Модуля и известить об этом Лицензиара. </w:t>
+      </w:r>
+    </w:p>
+    <w:p w:rsidRPr="0051718F" w:rsidR="00AB1457" w:rsidP="00AB1457" w:rsidRDefault="00AB1457">
+      <w:pPr>
+        <w:pStyle w:val="a1" />
+      </w:pPr>
+      <w:bookmarkStart w:name="_Ref309625663" w:id="4" />
+      <w:r w:rsidRPr="0051718F">
+        <w:t>Адреса и реквизиты сторон</w:t>
+      </w:r>
+      <w:bookmarkEnd w:id="4" />
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:w="9889" w:type="dxa" />
+        <w:tblLayout w:type="fixed" />
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1" />
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="5070" />
+        <w:gridCol w:w="4819" />
+      </w:tblGrid>
+      <w:tr w:rsidRPr="00B21132" w:rsidR="00AB1457" w:rsidTr="00BF034F">
+        <w:trPr>
+          <w:trHeight w:val="1695" />
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5070" w:type="dxa" />
+          </w:tcPr>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00AB1457" w:rsidP="00FA16BB" w:rsidRDefault="00CE31F7">
+            <w:pPr>
+              <w:rPr>
+                <w:b />
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:b />
+              </w:rPr>
+              <w:t>Лицензиат</w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="00AB1457">
+              <w:rPr>
+                <w:b />
+              </w:rPr>
+              <w:t>:</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00AB1457" w:rsidP="00FA16BB" w:rsidRDefault="00D57C17">
+            <w:r>
+              <w:fldChar w:fldCharType="begin" />
+            </w:r>
+            <w:r>
+              <w:instrText xml:space="preserve"> MERGEFIELD  "Краткое наименование"  \* MERGEFORMAT </w:instrText>
+            </w:r>
+            <w:r>
+              <w:fldChar w:fldCharType="separate" />
+            </w:r>
+            <w:r w:rsidR="007418BE">
+              <w:rPr>
+                <w:noProof />
+              </w:rPr>
+              <w:t>«Краткое наименование»</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:noProof />
+              </w:rPr>
+              <w:fldChar w:fldCharType="end" />
+            </w:r>
+          </w:p>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00AB1457" w:rsidP="00FA16BB" w:rsidRDefault="00AB1457">
+            <w:pPr>
+              <w:pStyle w:val="BodyText" />
+              <w:spacing w:before="0" w:after="0" />
+              <w:ind w:firstLine="0" />
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+              </w:rPr>
+              <w:t xml:space="preserve">ИНН </w:t>
+            </w:r>
+            <w:r w:rsidR="00286EF7">
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+              </w:rPr>
+              <w:fldChar w:fldCharType="begin" />
+            </w:r>
+            <w:r w:rsidR="00286EF7">
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+              </w:rPr>
+              <w:instrText xml:space="preserve"> MERGEFIELD  ИНН  \* MERGEFORMAT </w:instrText>
+            </w:r>
+            <w:r w:rsidR="00286EF7">
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+              </w:rPr>
+              <w:fldChar w:fldCharType="separate" />
+            </w:r>
+            <w:r w:rsidR="00286EF7">
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:noProof />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+              </w:rPr>
+              <w:t>«ИНН»</w:t>
+            </w:r>
+            <w:r w:rsidR="00286EF7">
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+              </w:rPr>
+              <w:fldChar w:fldCharType="end" />
+            </w:r>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+              </w:rPr>
+              <w:t xml:space="preserve"> КПП </w:t>
+            </w:r>
+            <w:r w:rsidR="00286EF7">
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+              </w:rPr>
+              <w:fldChar w:fldCharType="begin" />
+            </w:r>
+            <w:r w:rsidR="00286EF7">
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+              </w:rPr>
+              <w:instrText xml:space="preserve"> MERGEFIELD  КПП  \* MERGEFORMAT </w:instrText>
+            </w:r>
+            <w:r w:rsidR="00286EF7">
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+              </w:rPr>
+              <w:fldChar w:fldCharType="separate" />
+            </w:r>
+            <w:r w:rsidR="00286EF7">
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:noProof />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+              </w:rPr>
+              <w:t>«КПП»</w:t>
+            </w:r>
+            <w:r w:rsidR="00286EF7">
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+              </w:rPr>
+              <w:fldChar w:fldCharType="end" />
+            </w:r>
+          </w:p>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00AB1457" w:rsidP="00FA16BB" w:rsidRDefault="00AB1457">
+            <w:pPr>
+              <w:rPr>
+                <w:u w:val="single" />
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:u w:val="single" />
+              </w:rPr>
+              <w:t>Юридический адрес:</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00320765" w:rsidP="00FA16BB" w:rsidRDefault="00D57C17">
+            <w:r>
+              <w:fldChar w:fldCharType="begin" />
+            </w:r>
+            <w:r>
+              <w:instrText xml:space="preserve"> MERGEFIELD  "Юридический адрес"  \* MER</w:instrText>
+            </w:r>
+            <w:r>
+              <w:instrText xml:space="preserve">GEFORMAT </w:instrText>
+            </w:r>
+            <w:r>
+              <w:fldChar w:fldCharType="separate" />
+            </w:r>
+            <w:r w:rsidR="00286EF7">
+              <w:rPr>
+                <w:noProof />
+              </w:rPr>
+              <w:t>«Юридический адрес»</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:noProof />
+              </w:rPr>
+              <w:fldChar w:fldCharType="end" />
+            </w:r>
+          </w:p>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00AB1457" w:rsidP="00FA16BB" w:rsidRDefault="00AB1457">
+            <w:pPr>
+              <w:rPr>
+                <w:u w:val="single" />
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:u w:val="single" />
+              </w:rPr>
+              <w:t>Почтовый адрес:</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00320765" w:rsidP="00AB1457" w:rsidRDefault="00286EF7">
+            <w:pPr>
+              <w:pStyle w:val="Heading2" />
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:b w:val="0" />
+                <w:bCs w:val="0" />
+                <w:i w:val="0" />
+                <w:iCs w:val="0" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:b w:val="0" />
+                <w:bCs w:val="0" />
+                <w:i w:val="0" />
+                <w:iCs w:val="0" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+              </w:rPr>
+              <w:fldChar w:fldCharType="begin" />
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:b w:val="0" />
+                <w:bCs w:val="0" />
+                <w:i w:val="0" />
+                <w:iCs w:val="0" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+              </w:rPr>
+              <w:instrText xml:space="preserve"> MERGEFIELD  "Почтовый адрес"  \* MERGEFORMAT </w:instrText>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:b w:val="0" />
+                <w:bCs w:val="0" />
+                <w:i w:val="0" />
+                <w:iCs w:val="0" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+              </w:rPr>
+              <w:fldChar w:fldCharType="separate" />
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:b w:val="0" />
+                <w:bCs w:val="0" />
+                <w:i w:val="0" />
+                <w:iCs w:val="0" />
+                <w:noProof />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+              </w:rPr>
+              <w:t>«Почтовый адрес»</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:b w:val="0" />
+                <w:bCs w:val="0" />
+                <w:i w:val="0" />
+                <w:iCs w:val="0" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+              </w:rPr>
+              <w:fldChar w:fldCharType="end" />
+            </w:r>
+          </w:p>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00AB1457" w:rsidP="0051718F" w:rsidRDefault="00F9006E">
+            <w:pPr>
+              <w:pStyle w:val="Heading2" />
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:b w:val="0" />
+                <w:bCs w:val="0" />
+                <w:i w:val="0" />
+                <w:iCs w:val="0" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+                <w:lang w:val="en-GB" />
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:b w:val="0" />
+                <w:bCs w:val="0" />
+                <w:i w:val="0" />
+                <w:iCs w:val="0" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+                <w:lang w:val="en-GB" />
+              </w:rPr>
+              <w:lastRenderedPageBreak />
+              <w:t>E</w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="00AB1457">
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:b w:val="0" />
+                <w:bCs w:val="0" />
+                <w:i w:val="0" />
+                <w:iCs w:val="0" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+                <w:lang w:val="en-GB" />
+              </w:rPr>
+              <w:t xml:space="preserve">-mail: </w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="0051718F">
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:b w:val="0" />
+                <w:bCs w:val="0" />
+                <w:i w:val="0" />
+                <w:iCs w:val="0" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+                <w:lang w:val="en-GB" />
+              </w:rPr>
+              <w:fldChar w:fldCharType="begin" />
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="0051718F">
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:b w:val="0" />
+                <w:bCs w:val="0" />
+                <w:i w:val="0" />
+                <w:iCs w:val="0" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+                <w:lang w:val="en-GB" />
+              </w:rPr>
+              <w:instrText xml:space="preserve"> MERGEFIELD  Email  \* MERGEFORMAT </w:instrText>
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="0051718F">
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:b w:val="0" />
+                <w:bCs w:val="0" />
+                <w:i w:val="0" />
+                <w:iCs w:val="0" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+                <w:lang w:val="en-GB" />
+              </w:rPr>
+              <w:fldChar w:fldCharType="separate" />
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="0051718F">
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:b w:val="0" />
+                <w:bCs w:val="0" />
+                <w:i w:val="0" />
+                <w:iCs w:val="0" />
+                <w:noProof />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+                <w:lang w:val="en-GB" />
+              </w:rPr>
+              <w:t>«Email»</w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="0051718F">
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:eastAsia="Calibri" w:cs="Calibri" />
+                <w:b w:val="0" />
+                <w:bCs w:val="0" />
+                <w:i w:val="0" />
+                <w:iCs w:val="0" />
+                <w:sz w:val="22" />
+                <w:szCs w:val="22" />
+                <w:lang w:val="en-GB" />
+              </w:rPr>
+              <w:fldChar w:fldCharType="end" />
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="4819" w:type="dxa" />
+          </w:tcPr>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00AB1457" w:rsidP="00FA16BB" w:rsidRDefault="00CE31F7">
+            <w:pPr>
+              <w:rPr>
+                <w:b />
+              </w:rPr>
+            </w:pPr>
+            <w:bookmarkStart w:name="_Ref221434033" w:id="5" />
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:b />
+              </w:rPr>
+              <w:lastRenderedPageBreak />
+              <w:t>Лицензиар</w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="00AB1457">
+              <w:rPr>
+                <w:b />
+              </w:rPr>
+              <w:t>:</w:t>
+            </w:r>
+            <w:bookmarkEnd w:id="5" />
+          </w:p>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00AB1457" w:rsidP="00FA16BB" w:rsidRDefault="00AB1457">
+            <w:r w:rsidRPr="0051718F">
+              <w:t>Слепов Сергей Николаевич</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00FE3E24" w:rsidP="00FE3E24" w:rsidRDefault="00FE3E24">
+            <w:pPr>
+              <w:rPr>
+                <w:u w:val="single" />
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:u w:val="single" />
+              </w:rPr>
+              <w:t>Паспортные данные:</w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:u w:val="single" />
+              </w:rPr>
+              <w:br />
+            </w:r>
+            <w:fldSimple w:instr=" MERGEFIELD  &quot;№ паспорта Лицензиара&quot;  \* MERGEFORMAT ">
+              <w:r w:rsidRPr="0051718F" w:rsidR="00320765">
+                <w:rPr>
+                  <w:noProof />
+                </w:rPr>
+                <w:t>«№ паспорта Лицензиара»</w:t>
+              </w:r>
+            </w:fldSimple>
+            <w:r w:rsidRPr="0051718F" w:rsidR="00320765">
+              <w:t xml:space="preserve"> выдан </w:t>
+            </w:r>
+            <w:fldSimple w:instr=" MERGEFIELD  &quot;Дата выдачи паспорта Лицензиара&quot;  \* MERGEFORMAT ">
+              <w:r w:rsidRPr="0051718F" w:rsidR="00320765">
+                <w:rPr>
+                  <w:noProof />
+                </w:rPr>
+                <w:t>«Дата выдачи паспорта Лицензиара»</w:t>
+              </w:r>
+            </w:fldSimple>
+            <w:r w:rsidRPr="0051718F" w:rsidR="00320765">
+              <w:rPr>
+                <w:lang w:val="en-GB" />
+              </w:rPr>
+              <w:t> </w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="00320765">
+              <w:t xml:space="preserve">г. </w:t>
+            </w:r>
+            <w:r w:rsidR="00D57C17">
+              <w:fldChar w:fldCharType="begin" />
+            </w:r>
+            <w:r w:rsidR="00D57C17">
+              <w:instrText xml:space="preserve"> MERGEFIELD  "Орган выдавший паспорт Лицензиара"  \* MERGEFORMAT </w:instrText>
+            </w:r>
+            <w:r w:rsidR="00D57C17">
+              <w:fldChar w:fldCharType="separate" />
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="00320765">
+              <w:rPr>
+                <w:noProof />
+              </w:rPr>
+              <w:t>«Орган выдавший паспорт Лицензиара»</w:t>
+            </w:r>
+            <w:r w:rsidR="00D57C17">
+              <w:rPr>
+                <w:noProof />
+              </w:rPr>
+              <w:fldChar w:fldCharType="end" />
+            </w:r>
+          </w:p>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00FE3E24" w:rsidP="00FE3E24" w:rsidRDefault="00B0403C">
+            <w:pPr>
+              <w:rPr>
+                <w:u w:val="single" />
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:u w:val="single" />
+                <w:lang w:val="uk-UA" />
+              </w:rPr>
+              <w:t>А</w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="00FE3E24">
+              <w:rPr>
+                <w:u w:val="single" />
+              </w:rPr>
+              <w:t>дрес</w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:u w:val="single" />
+                <w:lang w:val="uk-UA" />
+              </w:rPr>
+              <w:t xml:space="preserve"> регистрации</w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="00FE3E24">
+              <w:rPr>
+                <w:u w:val="single" />
+              </w:rPr>
+              <w:t>:</w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="00FE3E24">
+              <w:rPr>
+                <w:u w:val="single" />
+              </w:rPr>
+              <w:br />
+            </w:r>
+            <w:r w:rsidR="00D57C17">
+              <w:fldChar w:fldCharType="begin" />
+            </w:r>
+            <w:r w:rsidR="00D57C17">
+              <w:instrText xml:space="preserve"> MERGEFIELD  "Адрес регистрации Лицензиара"  \* MERGEFORMAT </w:instrText>
+            </w:r>
+            <w:r w:rsidR="00D57C17">
+              <w:fldChar w:fldCharType="separate" />
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="002662E1">
+              <w:rPr>
+                <w:noProof />
+              </w:rPr>
+              <w:t>«Адрес регистрации Лицензиара»</w:t>
+            </w:r>
+            <w:r w:rsidR="00D57C17">
+              <w:rPr>
+                <w:noProof />
+              </w:rPr>
+              <w:fldChar w:fldCharType="end" />
+            </w:r>
+          </w:p>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00FE3E24" w:rsidP="00FA16BB" w:rsidRDefault="00FE3E24">
+            <w:pPr>
+              <w:rPr>
+                <w:u w:val="single" />
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:u w:val="single" />
+              </w:rPr>
+              <w:t>Адрес для переписки</w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:u w:val="single" />
+              </w:rPr>
+              <w:br />
+            </w:r>
+            <w:r w:rsidR="00D57C17">
+              <w:lastRenderedPageBreak />
+              <w:fldChar w:fldCharType="begin" />
+            </w:r>
+            <w:r w:rsidR="00D57C17">
+              <w:instrText xml:space="preserve"> MERGEFIELD  "Адрес для переписки Лицензиара"  \* MERGEFORMAT </w:instrText>
+            </w:r>
+            <w:r w:rsidR="00D57C17">
+              <w:fldChar w:fldCharType="separate" />
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="002662E1">
+              <w:rPr>
+                <w:noProof />
+              </w:rPr>
+              <w:t>«Адрес для переписки Лицензиара»</w:t>
+            </w:r>
+            <w:r w:rsidR="00D57C17">
+              <w:rPr>
+                <w:noProof />
+              </w:rPr>
+              <w:fldChar w:fldCharType="end" />
+            </w:r>
+          </w:p>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00BF034F" w:rsidP="00FA16BB" w:rsidRDefault="00FE3E24">
+            <w:pPr>
+              <w:rPr>
+                <w:u w:val="single" />
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:u w:val="single" />
+              </w:rPr>
+              <w:t>Банковские реквизиты</w:t>
+            </w:r>
+          </w:p>
+          <w:tbl>
+            <w:tblPr>
+              <w:tblW w:w="5268" w:type="dxa" />
+              <w:tblLayout w:type="fixed" />
+              <w:tblCellMar>
+                <w:top w:w="57" w:type="dxa" />
+                <w:left w:w="0" w:type="dxa" />
+                <w:bottom w:w="57" w:type="dxa" />
+              </w:tblCellMar>
+              <w:tblLook w:val="0000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:noHBand="0" w:noVBand="0" />
+            </w:tblPr>
+            <w:tblGrid>
+              <w:gridCol w:w="1309" />
+              <w:gridCol w:w="3959" />
+            </w:tblGrid>
+            <w:tr w:rsidRPr="0051718F" w:rsidR="00BF034F" w:rsidTr="00857499">
+              <w:trPr>
+                <w:trHeight w:val="25" />
+              </w:trPr>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="1309" w:type="dxa" />
+                  <w:tcBorders>
+                    <w:top w:val="nil" />
+                    <w:left w:val="nil" />
+                    <w:bottom w:val="nil" />
+                    <w:right w:val="nil" />
+                  </w:tcBorders>
+                  <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                  <w:noWrap />
+                </w:tcPr>
+                <w:p w:rsidRPr="0051718F" w:rsidR="00BF034F" w:rsidP="00857499" w:rsidRDefault="00BF034F">
+                  <w:pPr>
+                    <w:spacing w:before="0" />
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r w:rsidRPr="0051718F">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t xml:space="preserve">Получатель: </w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="3959" w:type="dxa" />
+                  <w:tcBorders>
+                    <w:top w:val="nil" />
+                    <w:left w:val="nil" />
+                    <w:bottom w:val="nil" />
+                    <w:right w:val="nil" />
+                  </w:tcBorders>
+                  <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                  <w:noWrap />
+                </w:tcPr>
+                <w:p w:rsidRPr="0051718F" w:rsidR="00BF034F" w:rsidP="00857499" w:rsidRDefault="00BF034F">
+                  <w:pPr>
+                    <w:spacing w:before="0" />
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r w:rsidRPr="0051718F">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t>КБ "ЮНИАСТРУМ БАНК" (ООО)</w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="0051718F">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:br />
+                    <w:t xml:space="preserve"> г. Москва</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+            <w:tr w:rsidRPr="0051718F" w:rsidR="00BF034F" w:rsidTr="00857499">
+              <w:trPr>
+                <w:trHeight w:val="25" />
+              </w:trPr>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="1309" w:type="dxa" />
+                  <w:tcBorders>
+                    <w:top w:val="nil" />
+                    <w:left w:val="nil" />
+                    <w:bottom w:val="nil" />
+                    <w:right w:val="nil" />
+                  </w:tcBorders>
+                  <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                  <w:noWrap />
+                </w:tcPr>
+                <w:p w:rsidRPr="0051718F" w:rsidR="00BF034F" w:rsidP="00857499" w:rsidRDefault="00BF034F">
+                  <w:pPr>
+                    <w:spacing w:before="0" />
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r w:rsidRPr="0051718F">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t>ИНН</w:t>
+                  </w:r>
+                  <w:r w:rsidR="008E2BC1">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t xml:space="preserve"> / КПП</w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="0051718F">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t>:</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="3959" w:type="dxa" />
+                  <w:tcBorders>
+                    <w:top w:val="nil" />
+                    <w:left w:val="nil" />
+                    <w:bottom w:val="nil" />
+                    <w:right w:val="nil" />
+                  </w:tcBorders>
+                  <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                  <w:noWrap />
+                </w:tcPr>
+                <w:p w:rsidRPr="0051718F" w:rsidR="00BF034F" w:rsidP="00857499" w:rsidRDefault="00BF034F">
+                  <w:pPr>
+                    <w:spacing w:before="0" />
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r w:rsidRPr="0051718F">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t>7707286100</w:t>
+                  </w:r>
+                  <w:r w:rsidR="008E2BC1">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t xml:space="preserve"> / </w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="008E2BC1" w:rsidR="008E2BC1">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t>775001001</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+            <w:tr w:rsidRPr="0051718F" w:rsidR="00BF034F" w:rsidTr="00857499">
+              <w:trPr>
+                <w:trHeight w:val="25" />
+              </w:trPr>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="1309" w:type="dxa" />
+                  <w:tcBorders>
+                    <w:top w:val="nil" />
+                    <w:left w:val="nil" />
+                    <w:bottom w:val="nil" />
+                    <w:right w:val="nil" />
+                  </w:tcBorders>
+                  <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                  <w:noWrap />
+                </w:tcPr>
+                <w:p w:rsidRPr="0051718F" w:rsidR="00BF034F" w:rsidP="00857499" w:rsidRDefault="00BF034F">
+                  <w:pPr>
+                    <w:spacing w:before="0" />
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r w:rsidRPr="0051718F">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t>БИК:</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="3959" w:type="dxa" />
+                  <w:tcBorders>
+                    <w:top w:val="nil" />
+                    <w:left w:val="nil" />
+                    <w:bottom w:val="nil" />
+                    <w:right w:val="nil" />
+                  </w:tcBorders>
+                  <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                  <w:noWrap />
+                </w:tcPr>
+                <w:p w:rsidRPr="0051718F" w:rsidR="00BF034F" w:rsidP="00857499" w:rsidRDefault="00BF034F">
+                  <w:pPr>
+                    <w:spacing w:before="0" />
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r w:rsidRPr="0051718F">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t>044585184</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+            <w:tr w:rsidRPr="0051718F" w:rsidR="00BF034F" w:rsidTr="00857499">
+              <w:trPr>
+                <w:trHeight w:val="25" />
+              </w:trPr>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="1309" w:type="dxa" />
+                  <w:tcBorders>
+                    <w:top w:val="nil" />
+                    <w:left w:val="nil" />
+                    <w:bottom w:val="nil" />
+                    <w:right w:val="nil" />
+                  </w:tcBorders>
+                  <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                  <w:noWrap />
+                </w:tcPr>
+                <w:p w:rsidRPr="0051718F" w:rsidR="00BF034F" w:rsidP="00857499" w:rsidRDefault="00BF034F">
+                  <w:pPr>
+                    <w:spacing w:before="0" />
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r w:rsidRPr="0051718F">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t>Корр/сч:</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="3959" w:type="dxa" />
+                  <w:tcBorders>
+                    <w:top w:val="nil" />
+                    <w:left w:val="nil" />
+                    <w:bottom w:val="nil" />
+                    <w:right w:val="nil" />
+                  </w:tcBorders>
+                  <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                  <w:noWrap />
+                </w:tcPr>
+                <w:p w:rsidRPr="0051718F" w:rsidR="00BF034F" w:rsidP="00857499" w:rsidRDefault="00BF034F">
+                  <w:pPr>
+                    <w:spacing w:before="0" />
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r w:rsidRPr="0051718F">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t>30101810600000000184</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+            <w:tr w:rsidRPr="0051718F" w:rsidR="00BF034F" w:rsidTr="00857499">
+              <w:trPr>
+                <w:trHeight w:val="25" />
+              </w:trPr>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="1309" w:type="dxa" />
+                  <w:tcBorders>
+                    <w:top w:val="nil" />
+                    <w:left w:val="nil" />
+                    <w:bottom w:val="nil" />
+                    <w:right w:val="nil" />
+                  </w:tcBorders>
+                  <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                  <w:noWrap />
+                </w:tcPr>
+                <w:p w:rsidRPr="0051718F" w:rsidR="00BF034F" w:rsidP="00857499" w:rsidRDefault="00BF034F">
+                  <w:pPr>
+                    <w:spacing w:before="0" />
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r w:rsidRPr="0051718F">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t>Счет получателя №:</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="3959" w:type="dxa" />
+                  <w:tcBorders>
+                    <w:top w:val="nil" />
+                    <w:left w:val="nil" />
+                    <w:bottom w:val="nil" />
+                    <w:right w:val="nil" />
+                  </w:tcBorders>
+                  <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                  <w:noWrap />
+                </w:tcPr>
+                <w:p w:rsidRPr="0051718F" w:rsidR="00BF034F" w:rsidP="00857499" w:rsidRDefault="00BF034F">
+                  <w:pPr>
+                    <w:spacing w:before="0" />
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r w:rsidRPr="0051718F">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t>40817810100001006200</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+            <w:tr w:rsidRPr="0051718F" w:rsidR="00BF034F" w:rsidTr="00857499">
+              <w:trPr>
+                <w:trHeight w:val="25" />
+              </w:trPr>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="1309" w:type="dxa" />
+                  <w:tcBorders>
+                    <w:top w:val="nil" />
+                    <w:left w:val="nil" />
+                    <w:bottom w:val="nil" />
+                    <w:right w:val="nil" />
+                  </w:tcBorders>
+                  <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                  <w:noWrap />
+                </w:tcPr>
+                <w:p w:rsidRPr="0051718F" w:rsidR="00BF034F" w:rsidP="00857499" w:rsidRDefault="00BF034F">
+                  <w:pPr>
+                    <w:spacing w:before="0" />
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r w:rsidRPr="0051718F">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t>Назначение платежа:</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="3959" w:type="dxa" />
+                  <w:tcBorders>
+                    <w:top w:val="nil" />
+                    <w:left w:val="nil" />
+                    <w:bottom w:val="nil" />
+                    <w:right w:val="nil" />
+                  </w:tcBorders>
+                  <w:shd w:val="clear" w:color="auto" w:fill="auto" />
+                  <w:noWrap />
+                </w:tcPr>
+                <w:p w:rsidRPr="0051718F" w:rsidR="00BF034F" w:rsidP="00857499" w:rsidRDefault="00BF034F">
+                  <w:pPr>
+                    <w:spacing w:before="0" />
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r w:rsidRPr="0051718F">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t xml:space="preserve">Оплата по договору </w:t>
+                  </w:r>
+                  <w:r w:rsidR="00D3302A">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t xml:space="preserve">№ </w:t>
+                  </w:r>
+                  <w:r w:rsidR="00D3302A">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:fldChar w:fldCharType="begin" />
+                  </w:r>
+                  <w:r w:rsidR="00D3302A">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:instrText xml:space="preserve"> MERGEFIELD  "Номер договора"  \* MERGEFORMAT </w:instrText>
+                  </w:r>
+                  <w:r w:rsidR="00D3302A">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:fldChar w:fldCharType="separate" />
+                  </w:r>
+                  <w:r w:rsidR="00D3302A">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                      <w:noProof />
+                    </w:rPr>
+                    <w:t>«Номер договора»</w:t>
+                  </w:r>
+                  <w:r w:rsidR="00D3302A">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:fldChar w:fldCharType="end" />
+                  </w:r>
+                  <w:r w:rsidR="00D3302A">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t xml:space="preserve"> </w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="00D752B3" w:rsidR="00D752B3">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:br />
+                  </w:r>
+                  <w:r w:rsidR="00D3302A">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t xml:space="preserve">на счет </w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="0051718F">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t xml:space="preserve">№ 40817SR1100200001891 </w:t>
+                  </w:r>
+                </w:p>
+                <w:p w:rsidRPr="0051718F" w:rsidR="00BF034F" w:rsidP="00857499" w:rsidRDefault="00BF034F">
+                  <w:pPr>
+                    <w:spacing w:before="0" />
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r w:rsidRPr="0051718F">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t xml:space="preserve">Слепова Сергея Николаевича. </w:t>
+                  </w:r>
+                </w:p>
+                <w:p w:rsidRPr="0051718F" w:rsidR="00BF034F" w:rsidP="00AF7F0D" w:rsidRDefault="00AF7F0D">
+                  <w:pPr>
+                    <w:spacing w:before="0" />
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t xml:space="preserve">Без </w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="0051718F" w:rsidR="00BF034F">
+                    <w:rPr>
+                      <w:rFonts w:cs="Arial CYR" />
+                    </w:rPr>
+                    <w:t>НДС.</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+          </w:tbl>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00AB1457" w:rsidP="00FE3E24" w:rsidRDefault="00FE3E24">
+            <w:pPr>
+              <w:rPr>
+                <w:u w:val="single" />
+                <w:lang w:val="en-GB" />
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:u w:val="single" />
+                <w:lang w:val="en-GB" />
+              </w:rPr>
+              <w:t>E-mail</w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:lang w:val="en-GB" />
+              </w:rPr>
+              <w:t xml:space="preserve">: </w:t>
+            </w:r>
+            <w:hyperlink w:history="1" r:id="rId10">
+              <w:r w:rsidRPr="0051718F">
+                <w:rPr>
+                  <w:rStyle w:val="Hyperlink" />
+                  <w:lang w:val="en-GB" />
+                </w:rPr>
+                <w:t>sergey.slepov@morpher.ru</w:t>
+              </w:r>
+            </w:hyperlink>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:lang w:val="en-GB" />
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w:rsidRPr="0051718F" w:rsidR="00AB1457" w:rsidP="00AB1457" w:rsidRDefault="00AB1457">
+      <w:pPr>
+        <w:pStyle w:val="a1" />
+      </w:pPr>
+      <w:r w:rsidRPr="0051718F">
+        <w:lastRenderedPageBreak />
+        <w:t>Подписи сторон</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:w="0" w:type="auto" />
+        <w:tblLook w:val="01E0" w:firstRow="1" w:lastRow="1" w:firstColumn="1" w:lastColumn="1" w:noHBand="0" w:noVBand="0" />
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="5070" />
+        <w:gridCol w:w="4677" />
+      </w:tblGrid>
+      <w:tr w:rsidRPr="008E7ACF" w:rsidR="00AB1457" w:rsidTr="000E266F">
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="5070" w:type="dxa" />
+          </w:tcPr>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00AB1457" w:rsidP="00FA16BB" w:rsidRDefault="002D717E">
+            <w:pPr>
+              <w:rPr>
+                <w:b />
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:b />
+              </w:rPr>
+              <w:t>Лицензиат</w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="00AB1457">
+              <w:rPr>
+                <w:b />
+              </w:rPr>
+              <w:t>:</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00AB1457" w:rsidP="00FA16BB" w:rsidRDefault="00656694">
+            <w:fldSimple w:instr=" MERGEFIELD  &quot;Должность представителя&quot; \* FirstCap  \* MERGEFORMAT ">
+              <w:r w:rsidR="00BC4974">
+                <w:rPr>
+                  <w:noProof />
+                </w:rPr>
+                <w:t>«Должность представителя»</w:t>
+              </w:r>
+            </w:fldSimple>
+            <w:r w:rsidRPr="0051718F" w:rsidR="002D717E">
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="002D717E">
+              <w:br />
+            </w:r>
+            <w:r w:rsidR="00D57C17">
+              <w:fldChar w:fldCharType="begin" />
+            </w:r>
+            <w:r w:rsidR="00D57C17">
+              <w:instrText xml:space="preserve"> MERGEFIELD  "Краткое наименование (родительный)" \* FirstCap  \* MERGEFORMAT </w:instrText>
+            </w:r>
+            <w:r w:rsidR="00D57C17">
+              <w:fldChar w:fldCharType="separate" />
+            </w:r>
+            <w:r w:rsidR="00CA2260">
+              <w:rPr>
+                <w:noProof />
+              </w:rPr>
+              <w:t>«Краткое наименование (родительный)»</w:t>
+            </w:r>
+            <w:r w:rsidR="00D57C17">
+              <w:rPr>
+                <w:noProof />
+              </w:rPr>
+              <w:fldChar w:fldCharType="end" />
+            </w:r>
+          </w:p>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00AB1457" w:rsidP="00FA16BB" w:rsidRDefault="00AB1457" />
+          <w:p w:rsidRPr="0051718F" w:rsidR="00AB1457" w:rsidP="00BC4974" w:rsidRDefault="00AB1457">
+            <w:r w:rsidRPr="0051718F">
+              <w:t xml:space="preserve">____________________/ </w:t>
+            </w:r>
+            <w:fldSimple w:instr=" MERGEFIELD  &quot;ФИО представителя&quot;  \* MERGEFORMAT ">
+              <w:r w:rsidR="00BC4974">
+                <w:rPr>
+                  <w:noProof />
+                </w:rPr>
+                <w:t>«ФИО представителя»</w:t>
+              </w:r>
+            </w:fldSimple>
+            <w:r w:rsidRPr="0051718F" w:rsidR="002662E1">
+              <w:rPr>
+                <w:noProof />
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F">
+              <w:t>/</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="4677" w:type="dxa" />
+          </w:tcPr>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00AB1457" w:rsidP="00FA16BB" w:rsidRDefault="002D717E">
+            <w:pPr>
+              <w:rPr>
+                <w:b />
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="0051718F">
+              <w:rPr>
+                <w:b />
+              </w:rPr>
+              <w:t>Лицензиар</w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="00AB1457">
+              <w:rPr>
+                <w:b />
+              </w:rPr>
+              <w:t>:</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00AB1457" w:rsidP="00FA16BB" w:rsidRDefault="005C2947">
+            <w:r>
+              <w:t>Г</w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="002D717E">
+              <w:t>ражданин Российской Федерации и обладатель всех прав на Модуль</w:t>
+            </w:r>
+          </w:p>
+          <w:p w:rsidRPr="0051718F" w:rsidR="00AB1457" w:rsidP="00FA16BB" w:rsidRDefault="00AB1457" />
+          <w:p w:rsidRPr="00A413B0" w:rsidR="00AB1457" w:rsidP="001443BA" w:rsidRDefault="00AB1457">
+            <w:r w:rsidRPr="0051718F">
+              <w:t xml:space="preserve">_____________________/ Слепов </w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F" w:rsidR="001443BA">
+              <w:t xml:space="preserve">С. Н. </w:t>
+            </w:r>
+            <w:r w:rsidRPr="0051718F">
+              <w:t>/</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w:rsidRPr="008F20C5" w:rsidR="008F20C5" w:rsidRDefault="008F20C5" />
+    <w:sectPr w:rsidRPr="008F20C5" w:rsidR="008F20C5" w:rsidSect="00B0403C">
+      <w:footerReference w:type="default" r:id="rId11" />
+      <w:pgSz w:w="11906" w:h="16838" />
+      <w:pgMar w:top="567" w:right="720" w:bottom="426" w:left="1247" w:header="709" w:footer="709" w:gutter="0" />
+      <w:cols w:space="708" />
+      <w:docGrid w:linePitch="360" />
+    </w:sectPr>
+  </w:body>
+</w:document>

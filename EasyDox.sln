@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyDox", "EasyDox\EasyDox.csproj", "{0A470181-7A69-4288-AAB4-C062E18BDD07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyDox.Tests", "EasyDox.Tests\EasyDox.Tests.csproj", "{C224E6DE-D77A-489E-8C2F-D300C585542C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A470181-7A69-4288-AAB4-C062E18BDD07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A470181-7A69-4288-AAB4-C062E18BDD07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A470181-7A69-4288-AAB4-C062E18BDD07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A470181-7A69-4288-AAB4-C062E18BDD07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C224E6DE-D77A-489E-8C2F-D300C585542C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C224E6DE-D77A-489E-8C2F-D300C585542C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C224E6DE-D77A-489E-8C2F-D300C585542C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C224E6DE-D77A-489E-8C2F-D300C585542C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

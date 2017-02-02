@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 wp14">
+  <w:body>
+    <w:p w:rsidRPr="0051718F" w:rsidR="00B42F3C" w:rsidP="00B42F3C" w:rsidRDefault="00B42F3C">
+      <w:r w:rsidRPr="0051718F" w:rsidR="00684A8E">
+        <w:t>)</w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="002D54AF">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="00BD684B">
+        <w:t xml:space="preserve">в лице </w:t>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="begin" />
+      </w:r>
+      <w:r>
+        <w:instrText xml:space="preserve"> MERGEFIELD  "Родительный (Должность представителя Лицензиата)"  \* MERGEFORMAT </w:instrText>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="separate" />
+      </w:r>
+      <w:r w:rsidRPr="0051718F" w:rsidR="003938E7">
+        <w:rPr>
+          <w:noProof />
+        </w:rPr>
+        <w:t>«Родительный (Должность представителя Лиц»</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:noProof />
+        </w:rPr>
+        <w:fldChar w:fldCharType="end" />
+      </w:r>
+      <w:r w:rsidRPr="0056610B" w:rsidR="0056610B">
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="begin" />
+      </w:r>
+      <w:r>
+        <w:instrText xml:space="preserve"> MER</w:instrText>
+      </w:r>
+      <w:r>
+        <w:instrText xml:space="preserve">GEFIELD  "Родительный (ФИО представителя Лицензиата)"  \* MERGEFORMAT </w:instrText>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="separate" />
+      </w:r>
+      <w:r w:rsidR="009D0E53">
+        <w:rPr>
+          <w:noProof />
+        </w:rPr>
+        <w:t>«Родительный (ФИО представителя Лицензиат»</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:noProof />
+        </w:rPr>
+        <w:fldChar w:fldCharType="end" />
+      </w:r>
+      <w:fldSimple w:instr=" MERGEFIELD  &quot;Полное наименование компании Лицензиата&quot;  \* MERGEFORMAT ">
+        <w:r w:rsidRPr="0051718F" w:rsidR="00684A8E">
+          <w:rPr>
+            <w:noProof />
+          </w:rPr>
+          <w:t>«Полное наименование компании Лицензиата»</w:t>
+        </w:r>
+      </w:fldSimple>
+    </w:p>
+  </w:body>
+</w:document>
