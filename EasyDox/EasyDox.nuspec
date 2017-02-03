@@ -3,10 +3,11 @@
     <metadata>
         <id>EasyDox</id>
         <version>1.0.0</version>
-        <title>Generates docx files from templates</title>
+        <title>EasyDox</title>
         <authors>Sergey Slepov</authors>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Replaces fields in a docx template with given values.</description>
+        <summary>Generates docx files from templates.</summary>
     </metadata>
     <files>
         <file src="bin\Release\EasyDox.xml" target="lib\EasyDox.xml" />
