@@ -9,7 +9,7 @@
         <description>Replaces fields in a docx template with given values.</description>
     </metadata>
     <files>
-        <file src="EasyDox\bin\Release\EasyDox.xml" target="lib\EasyDox.xml" />
-        <file src="EasyDox\bin\Release\EasyDox.dll" target="lib\EasyDox.dll" />
+        <file src="bin\Release\EasyDox.xml" target="lib\EasyDox.xml" />
+        <file src="bin\Release\EasyDox.dll" target="lib\EasyDox.dll" />
     </files>
 </package>
