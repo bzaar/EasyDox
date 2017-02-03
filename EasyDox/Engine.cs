@@ -30,11 +30,11 @@ namespace EasyDox
         /// <param name="templatePath">Path to template docx.</param>
         /// <param name="outputPath">Path to output docx.</param>
         /// <returns></returns>
-        public IEnumerable <Docx.IMergeError> Merge (string templatePath, Dictionary <string, string> fieldValues, string outputPath)
+        public IEnumerable <IMergeError> Merge (string templatePath, Dictionary <string, string> fieldValues, string outputPath)
         {
             File.Copy (templatePath, outputPath, true);
 
-            return this.MergeInplace (outputPath, fieldValues);
+            return Docx.MergeInplace(this, outputPath, fieldValues);
         }
 
         internal string Eval (string expression, Properties properties)

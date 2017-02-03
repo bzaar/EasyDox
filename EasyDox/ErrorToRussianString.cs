@@ -1,13 +1,13 @@
 ﻿namespace EasyDox
 {
-    public class ErrorToRussianString : Docx.IMergeErrorVisitor
+    public class ErrorToRussianString : IMergeErrorVisitor
     {
-        string Docx.IMergeErrorVisitor.InvalidExpression(string expr)
+        string IMergeErrorVisitor.InvalidExpression(string expr)
         {
             return "Ошибка в выражении: " + expr + ".";
         }
 
-        string Docx.IMergeErrorVisitor.MissingField(string fieldName)
+        string IMergeErrorVisitor.MissingField(string fieldName)
         {
             return "Не заполнено поле " + fieldName + ".";
         }

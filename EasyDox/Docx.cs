@@ -18,7 +18,7 @@ namespace EasyDox
         /// <param name="docxPath">Template and output path.</param>
         /// <param name="fieldValues">A dictionary of field values keyed by field name.</param>
         /// <returns></returns>
-        public static IEnumerable <IMergeError> MergeInplace (this Engine engine, string docxPath, Dictionary <string, string> fieldValues)
+        public static IEnumerable <IMergeError> MergeInplace (Engine engine, string docxPath, Dictionary <string, string> fieldValues)
         {
             using (var pkg = Package.Open (docxPath, FileMode.Open, FileAccess.ReadWrite))
             {
@@ -39,17 +39,6 @@ namespace EasyDox
 
                 return fields;
             }
-        }
-
-        public interface IMergeErrorVisitor
-        {
-            string InvalidExpression (string expr);
-            string MissingField (string fieldName);
-        }
-
-        public interface IMergeError
-        {
-            string Accept (IMergeErrorVisitor visitor);
         }
 
         class MergeError : IMergeError
