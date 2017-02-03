@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>EasyDox</id>
+        <version>1.0.0</version>
+        <title>Generates docx files from templates</title>
+        <authors>Sergey Slepov</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Replaces fields in a docx template with given values.</description>
+    </metadata>
+    <files>
+        <file src="EasyDox\bin\Release\EasyDox.xml" target="lib\EasyDox.xml" />
+        <file src="EasyDox\bin\Release\EasyDox.dll" target="lib\EasyDox.dll" />
+    </files>
+</package>
