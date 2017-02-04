@@ -21,11 +21,9 @@ namespace EasyDox
     /// </summary>
     class Literal : IExpression
     {
-        private readonly string s;
-
         public Literal (string s)
         {
-            this.s = s;
+            Value = s;
         }
 
         void IExpression.Accept(IExpressionVisitor visitor)
@@ -33,7 +31,7 @@ namespace EasyDox
             visitor.Visit (this);
         }
 
-        public string Value { get {return s;} }
+        public string Value { get; }
     }
 
     /// <summary>
@@ -41,11 +39,9 @@ namespace EasyDox
     /// </summary>
     class Field : IExpression
     {
-        private readonly string name;
-
         public Field(string name)
         {
-            this.name = name;
+            Name = name;
         }
 
         void IExpression.Accept(IExpressionVisitor visitor)
@@ -56,29 +52,20 @@ namespace EasyDox
         /// <summary>
         /// Gets the field name.
         /// </summary>
-        public string Name { get {return name;} }
+        public string Name { get; }
     }
 
     class Function : IExpression
     {
-        private readonly FunctionDefinition def;
-        private readonly IEnumerable <IExpression> args;
-
         public Function (FunctionDefinition def, IEnumerable<IExpression> args)
         {
-            this.def = def;
-            this.args = args;
+            Definition = def;
+            Args = args;
         }
 
-        public FunctionDefinition Definition
-        {
-            get { return def; }
-        }
+        public FunctionDefinition Definition { get; }
 
-        public IEnumerable <IExpression> Args
-        {
-            get { return args; }
-        }
+        public IEnumerable <IExpression> Args { get; }
 
         void IExpression.Accept(IExpressionVisitor visitor)
         {
@@ -100,10 +87,7 @@ namespace EasyDox
             this.func = new Func2 (func);
         }
 
-        public int ArgCount
-        {
-            get {return func.ArgCount;}
-        }
+        public int ArgCount => func.ArgCount;
 
         public string Eval (string [] args)
         {
@@ -131,10 +115,7 @@ namespace EasyDox
             return func(args.Single());
         }
 
-        int IFuncN.ArgCount
-        {
-            get { return 1; }
-        }
+        int IFuncN.ArgCount => 1;
     }
 
     class Func2 : IFuncN
@@ -151,9 +132,6 @@ namespace EasyDox
             return func(args[0], args[1]);
         }
 
-        int IFuncN.ArgCount
-        {
-            get { return 2; }
-        }
+        int IFuncN.ArgCount => 2;
     }
 }
