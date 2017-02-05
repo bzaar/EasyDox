@@ -8,6 +8,8 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Replaces fields in a docx template with given values.</description>
         <summary>Generates docx files from templates.</summary>
+        <projectUrl>https://github.com/bzaar/EasyDox</projectUrl>
+        <licenseUrl>https://github.com/bzaar/EasyDox/blob/master/LICENSE</licenseUrl>
     </metadata>
     <files>
         <file src="bin\Release\EasyDox.xml" target="lib\EasyDox.xml" />
