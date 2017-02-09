@@ -128,7 +128,7 @@ namespace EasyDox
 
         internal static readonly Regex regex = new Regex(
 
-            @"^(.*?(?<template>\[\[[\s]*(((?<name>[^\s""]+?)|([""](?<name>[^""]+?)[""]))[\s]*)\]\]))+",
+            @"^(.*?(?<template>\[\[[\s]*(((?<name>.+?(?=[\s]*\]\])))[\s]*)\]\]))+",
 
             RegexOptions.Compiled
             | RegexOptions.CultureInvariant
