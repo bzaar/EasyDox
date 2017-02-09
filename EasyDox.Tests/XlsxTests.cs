@@ -120,5 +120,25 @@ namespace EasyDox.Tests
             Assert.AreEqual("  На основании доверенности № 123-456/АГ в лице Иванов И.П., проживающий по адресу: Петропавловск-Камчатский ", fields.Single().Value);
         }
 
+        [TestMethod, DeploymentItem("Invoice.xlsx")]
+        public void SmokeTest()
+        {
+            Console.WriteLine(Environment.CurrentDirectory);
+
+            var dict = new Dictionary<string, string>
+            {
+                {"№ счета", "123"},
+                {"Лицензиат",  "ООО \"Тюльпан\""},
+                {"Дата счета", "8 марта 2017"},
+                {"Продукт", "Право использования библиотеки \"Морфер\""},
+                {"Цена", "1500"},
+            };
+
+            var engine = new Engine();
+
+            var errors = engine.MergeXL("Invoice.xlsx", dict, "invoice1.xlsx");
+
+            Assert.IsFalse(errors.Any());
+        }
     }
 }
