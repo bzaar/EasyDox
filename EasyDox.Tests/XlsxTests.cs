@@ -40,6 +40,22 @@ namespace EasyDox.Tests
         }
 
         [TestMethod]
+        public void XlsxRegexMethod4()
+        {
+            var match = Xlsx.regex.Match("Счет на оплату № [[№ счета]] от [[Дата счета]]");
+
+            Assert.IsTrue(match.Success);
+            Assert.AreEqual(2, match.Groups["name"].Captures.Count);
+
+            Assert.AreEqual("№ счета", match.Groups["name"].Captures[0].Value);
+            Assert.AreEqual("Дата счета", match.Groups["name"].Captures[1].Value);
+
+            Assert.AreEqual(2, match.Groups["template"].Captures.Count);
+            Assert.AreEqual("[[№ счета]]", match.Groups["template"].Captures[0].Value);
+            Assert.AreEqual("[[Дата счета]]", match.Groups["template"].Captures[1].Value);
+        }
+
+        [TestMethod]
         public void XlsxRegexMethod6()
         {
             var match = Xlsx.regex.Match("[[Доверенность]][[Фамилия]][[Отчество]]");
