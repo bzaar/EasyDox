@@ -37,6 +37,12 @@ namespace EasyDox
             return Docx.MergeInplace(this, outputPath, fieldValues);
         }
 
+        public IEnumerable<IMergeError> MergeXL(string templatePath, Dictionary<string, string> fieldValues, string outputPath)
+        {
+            File.Copy(templatePath, outputPath, true);
+            return Xlsx.MergeInplace(this, outputPath, fieldValues);
+        }
+
         internal string Eval (string expression, Properties properties)
         {
             IExpression exp = Parse (expression);
