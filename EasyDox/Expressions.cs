@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace EasyDox
 {
@@ -55,13 +56,13 @@ namespace EasyDox
 
     class Function : IExpression
     {
-        public Function (IFuncN def, IEnumerable<IExpression> args)
+        public Function (Delegate def, IEnumerable<IExpression> args)
         {
             Definition = def;
             Args = args;
         }
 
-        public IFuncN Definition { get; }
+        public Delegate Definition { get; }
 
         public IEnumerable <IExpression> Args { get; }
 

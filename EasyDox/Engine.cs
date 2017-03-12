@@ -1,23 +1,24 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace EasyDox
 {
     public class Engine
     {
-        private readonly Dictionary <string, IFuncN> functions;
+        private readonly Dictionary <string, Delegate> functions;
 
         /// <summary>
         /// Creates the templating engine with a specified set of user-defined functions.
         /// </summary>
-        public Engine (params IFunctionPack [] functionPacks)
+        public Engine (params Dictionary<string, Delegate> [] functionPacks)
         {
             this.functions = functionPacks
-                .SelectMany (p => p.Functions)
+                .SelectMany (p => p)
                 .ToDictionary (kvp => kvp.Key, kvp => kvp.Value);
         }
 
-        public Engine (Dictionary <string, IFuncN> functions)
+        public Engine (Dictionary <string, Delegate> functions)
         {
             this.functions = functions;
         }
@@ -59,10 +60,10 @@ namespace EasyDox
                     args.Add (ParsePropertyOrLiteral (arg2));
                 }
 
-                IFuncN def;
+                Delegate def;
                 if (!functions.TryGetValue (func, out def)) return null;
 
-                if (def.ArgCount != args.Count) return null;
+                if (def.Method.GetParameters().Length != args.Count) return null;
 
                 exp = new Function (def, args);
             }
