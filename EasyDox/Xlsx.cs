@@ -32,7 +32,8 @@ namespace EasyDox
                 var sheetParts = pkg.GetParts()
                     .Where(p => 
                         p.Uri.OriginalString.StartsWith("/xl/worksheets") && 
-                        p.Uri.OriginalString.EndsWith(".xml"));
+                        p.Uri.OriginalString.EndsWith(".xml"))
+                    .ToList();
 
                 var sheetDocList = new List<XmlDocument>();
                 foreach (var sheet in sheetParts)
