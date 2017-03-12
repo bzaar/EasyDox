@@ -18,11 +18,6 @@ namespace EasyDox
                 .ToDictionary (kvp => kvp.Key, kvp => kvp.Value);
         }
 
-        public Engine (Dictionary <string, Delegate> functions)
-        {
-            this.functions = functions;
-        }
-
         internal string Eval (string expression, Properties properties)
         {
             IExpression exp = Parse (expression);
