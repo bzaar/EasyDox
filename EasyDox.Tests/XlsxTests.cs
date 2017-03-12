@@ -174,10 +174,10 @@ namespace EasyDox.Tests
             var engine = new Engine();
             Xlsx.ReplaceMergeFieldsAndReturnMissingFieldNames(xdoc2, sheetDocList, replacements, engine);
 
-            var fields = Xlsx.GetSharedStrings(xdoc2);
+            var fields = Xlsx.GetSharedStrings(xdoc2).ToList();
 
-            Assert.AreEqual(2, fields.Count());
-            Assert.AreEqual("", fields.ToList()[1].StringValue);
+            Assert.AreEqual(2, fields.Count);
+            Assert.AreEqual("", fields[1].StringValue);
 
             var cells2 = Xlsx.GetStringCells(sheetDoc2, 1);
             Assert.AreEqual(0, cells2.Count());
