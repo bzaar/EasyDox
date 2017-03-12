@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Docx.cs" />
     <Compile Include="Engine.cs" />
+    <Compile Include="EngineExtensions.cs" />
     <Compile Include="ErrorToRussianString.cs" />
     <Compile Include="ExpressionEvaluator.cs" />
     <Compile Include="Expressions.cs" />

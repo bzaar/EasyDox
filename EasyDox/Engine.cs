@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 
 namespace EasyDox
@@ -21,26 +20,6 @@ namespace EasyDox
         public Engine (Dictionary <string, IFuncN> functions)
         {
             this.functions = functions;
-        }
-
-        /// <summary>
-        /// Merges the field values into the template specified by <paramref name="templatePath"/> and saves the output to <paramref name="outputPath"/>.
-        /// </summary>
-        /// <param name="fieldValues">A dictionary of field values keyed by field name.</param>
-        /// <param name="templatePath">Path to template docx.</param>
-        /// <param name="outputPath">Path to output docx.</param>
-        /// <returns></returns>
-        public IEnumerable <IMergeError> Merge (string templatePath, Dictionary <string, string> fieldValues, string outputPath)
-        {
-            File.Copy (templatePath, outputPath, true);
-
-            return Docx.MergeInplace(this, outputPath, fieldValues);
-        }
-
-        public IEnumerable<IMergeError> MergeXL(string templatePath, Dictionary<string, string> fieldValues, string outputPath)
-        {
-            File.Copy(templatePath, outputPath, true);
-            return Xlsx.MergeInplace(this, outputPath, fieldValues);
         }
 
         internal string Eval (string expression, Properties properties)
