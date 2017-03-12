@@ -110,11 +110,11 @@ namespace EasyDox
                         var fieldName = fieldNames[fieldIdx].ToString();
                         var fieldTemlate = fieldTemplates[fieldIdx].ToString();
 
-                        var exp = engine.Parse(fieldName.ToString());
+                        var exp = engine.Parse(fieldName);
 
                         if (exp == null)
                         {
-                            errors.Add(new MergeError(v => v.InvalidExpression(fieldName.ToString())));
+                            errors.Add(new MergeError(v => v.InvalidExpression(fieldName)));
                         }
                         else
                         {
