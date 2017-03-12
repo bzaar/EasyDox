@@ -52,7 +52,7 @@ namespace EasyDox
 
         internal IExpression Parse(string expression)
         {
-            var parts = expression.Split ('(').Select (p => p.Trim());
+            var parts = expression.Split ('(').Select (p => p.Trim()).ToList();
 
             IExpression exp = ParsePropertyOrLiteral (parts.First ());
 
