@@ -29,19 +29,39 @@ namespace EasyDox
                 // Specify the URI of the part to be read
                 PackagePart part = pkg.GetPart(new Uri ("/xl/sharedStrings.xml", UriKind.Relative));
 
+                var sheetParts = pkg.GetParts().Where(p => p.Uri.OriginalString.StartsWith("/xl/worksheets") && p.Uri.OriginalString.EndsWith(".xml"));
+                var sheetDocList = new List<XmlDocument>();
+                foreach (var sheet in sheetParts)
+                {
+                    var sheetDoc = new XmlDocument();
+                    sheetDoc.Load(sheet.GetStream(FileMode.Open, FileAccess.Read));
+                    sheetDocList.Add(sheetDoc);
+                }
+
                 // Get the document part from the package.
                 // Load the XML in the part into an XmlDocument instance.
-                var xdoc = new XmlDocument();
-                xdoc.Load(part.GetStream(FileMode.Open, FileAccess.Read));
+                var sharedStringsDoc = new XmlDocument();
+                sharedStringsDoc.Load(part.GetStream(FileMode.Open, FileAccess.Read));
 
-                var fields = ReplaceMergeFieldsAndReturnMissingFieldNames(xdoc, fieldValues, engine);
+                var fields = ReplaceMergeFieldsAndReturnMissingFieldNames(sharedStringsDoc, sheetDocList, fieldValues, engine);
 
-                using (var partWrt = new StreamWriter(part.GetStream(FileMode.Open, FileAccess.Write)))
+                SaveDocPart(part, sharedStringsDoc);
+                int idx = 0;
+                foreach (var sheet in sheetParts)
                 {
-                    xdoc.Save(partWrt);
+                    SaveDocPart(sheet, sheetDocList[idx]);
+                    ++idx;
                 }
 
                 return fields;
+            }
+        }
+
+        private static void SaveDocPart(PackagePart part, XmlDocument xmlDoc)
+        {
+            using (var partWrt = new StreamWriter(part.GetStream(FileMode.Open, FileAccess.Write)))
+            {
+                xmlDoc.Save(partWrt);
             }
         }
 
@@ -60,14 +80,16 @@ namespace EasyDox
             }
         }
 
-        public static IEnumerable<IMergeError> ReplaceMergeFieldsAndReturnMissingFieldNames(XmlDocument xdoc, Dictionary<string, string> dict, Engine engine)
+        public static IEnumerable<IMergeError> ReplaceMergeFieldsAndReturnMissingFieldNames(
+            XmlDocument sharedStringsDoc, List<XmlDocument> sheetDocList, Dictionary<string, string> replacements, Engine engine)
         {
-            var fields = GetFields(xdoc);
+            var fields = GetSharedStrings(sharedStringsDoc);
 
             var errors = new List<IMergeError>();
 
-            var properties = new Properties(dict);
+            var properties = new Properties(replacements);
 
+            int stringIdx = 0;
             foreach (var field in fields)
             {
                 var value = field.Text;
@@ -92,9 +114,7 @@ namespace EasyDox
                         else
                         {
                             var missingProperties = new List<string>();
-
                             properties.FindMissingProperties(exp, missingProperties);
-
                             errors.AddRange(missingProperties.Select(p => new MergeError(v => v.MissingField(p))));
 
                             if (missingProperties.Count == 0) // otherwise Eval will throw
@@ -104,14 +124,49 @@ namespace EasyDox
                         }
                     }
 
-                    field.Value = value;
+                    if(value != field.Text)
+                    {
+                        double dresult;
+                        if (Double.TryParse(value.Trim(), out dresult))
+                        {
+                            foreach(var sheetDoc in sheetDocList)
+                            {
+                                var cells = GetStringCells(sheetDoc, stringIdx);
+                                foreach (var cell in cells)
+                                {
+                                    cell.DoubleValue = dresult;
+                                }
+                            }
+                            
+                            value = "";
+                        }
+                    }
+
+                    field.StringValue = value;
                 }
+                ++stringIdx;
             }
 
             return errors;
         }
 
-        internal static IEnumerable<IField> GetFields(XmlDocument xdoc)
+        internal static IEnumerable<ICell> GetStringCells(XmlDocument xdoc, int stringIdx)
+        {
+            var nsManager = new XmlNamespaceManager(new NameTable());
+            nsManager.AddNamespace("d", "http://schemas.openxmlformats.org/spreadsheetml/2006/main");
+
+            XPathNavigator xDocNavigator = xdoc.CreateNavigator();
+            //var nodePath = String.Format("//s:worksheet/s:sheetData/s:row/s:cr[s:@t='s'/s:v={0}]", stringIdx);
+            var nodePath = String.Format("//d:sheetData/d:row/d:c[@t='s' and d:v='{0}']", stringIdx);
+            var nodes = xDocNavigator.Select(nodePath, nsManager);
+
+            foreach (XPathNavigator navigator in nodes)
+            {
+                yield return new SimpleCell(navigator, nsManager);
+            }
+        }
+
+        internal static IEnumerable<ISharedString> GetSharedStrings(XmlDocument xdoc)
         {
             var nsManager = new XmlNamespaceManager(new NameTable());
             nsManager.AddNamespace("s", "http://schemas.openxmlformats.org/spreadsheetml/2006/main");
@@ -122,13 +177,13 @@ namespace EasyDox
 
             foreach (XPathNavigator navigator in nodes)
             {
-                yield return new SimpleField(navigator, nsManager);
+                yield return new SimpleSharedString(navigator, nsManager);
             }
         }
 
         internal static readonly Regex regex = new Regex(
 
-            @"^(.*?(?<template>\[\[[\s]*(((?<name>[^\s""]+?)|([""](?<name>[^""]+?)[""]))[\s]*)\]\]))+",
+            @"^(.*?(?<template>\[\[[\s]*(((?<name>.+?(?=[\s]*\]\])))[\s]*)\]\]))+",
 
             RegexOptions.Compiled
             | RegexOptions.CultureInvariant
@@ -137,49 +192,81 @@ namespace EasyDox
             | RegexOptions.IgnorePatternWhitespace
             | RegexOptions.Singleline);
 
-        internal interface IField
+        internal interface ISharedString
         {
             string Text { get; }
-            string Value { get; set; }
+            string StringValue { get; set; }
         }
 
-        internal class SimpleField : IField
+        internal class SimpleSharedString : ISharedString
         {
             private readonly XPathNavigator node;
             private readonly XmlNamespaceManager namespaceManager;
 
-            public SimpleField(XPathNavigator node, XmlNamespaceManager namespaceManager)
+            public SimpleSharedString(XPathNavigator node, XmlNamespaceManager namespaceManager)
             {
                 this.node = node;
                 this.namespaceManager = namespaceManager;
             }
 
-            string IField.Text
+            string ISharedString.Text
             {
                 // ReSharper disable AssignNullToNotNullAttribute
                 get { return node.InnerXml; }
                 // ReSharper restore AssignNullToNotNullAttribute
             }
 
-            string IField.Value
+            string ISharedString.StringValue
             {
                 get
                 {
-                    return ValueNode.Value;
+                    return node.Value;
                 }
                 set
                 {
-                    ValueNode.SetValue(value);
+                    node.SetValue(value);
                 }
-            }
-
-            private XPathNavigator ValueNode
-            {
-                //get { return node.Select("w:r/w:t", namespaceManager).Cast<XPathNavigator>().Single(); }
-                get { return node; }
-
             }
         }
 
+        internal interface ICell
+        {
+            double DoubleValue { get;  set; }
+        }
+
+        internal class SimpleCell : ICell
+        {
+            private readonly XPathNavigator node;
+            private readonly XmlNamespaceManager namespaceManager;
+
+            public SimpleCell(XPathNavigator node, XmlNamespaceManager namespaceManager)
+            {
+                this.node = node;
+                this.namespaceManager = namespaceManager;
+            }
+
+            double ICell.DoubleValue
+            {
+                get
+                {
+                    var child = node.Select("d:v", namespaceManager).Cast<XPathNavigator>().Single();
+                    return Double.Parse(child.Value);
+                }
+                set
+                {
+                    XmlNode curNode = ((IHasXmlNode)node).GetNode();
+                    if (null != curNode)
+                    {
+                        XmlAttribute attrib = curNode.Attributes["t"];
+                        if (null != attrib)
+                        {
+                            curNode.Attributes.Remove(attrib);
+                        }
+                    }
+                    var child = node.Select("d:v", namespaceManager).Cast<XPathNavigator>().Single();
+                    child.SetValue(value.ToString("G17"));
+                }
+            }
+        }
     }
 }
