@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.IO;
 using System.Xml;
@@ -162,7 +163,7 @@ namespace EasyDox.Tests
             double dvalue = 1500.03;
             var replacements = new Dictionary<string, string>()
             {
-                {"Цена", dvalue.ToString()},
+                {"Цена", dvalue.ToString(CultureInfo.InvariantCulture)},
             };
 
             var sheetDocList = new List<XmlDocument>();
