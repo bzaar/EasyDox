@@ -258,13 +258,10 @@ namespace EasyDox
                 set
                 {
                     XmlNode curNode = ((IHasXmlNode)node).GetNode();
-                    if (null != curNode)
+                    XmlAttribute attrib = curNode?.Attributes?["t"];
+                    if (attrib != null)
                     {
-                        XmlAttribute attrib = curNode.Attributes?["t"];
-                        if (null != attrib)
-                        {
-                            curNode.Attributes.Remove(attrib);
-                        }
+                        curNode.Attributes.Remove(attrib);
                     }
                     var child = node.Select("d:v", namespaceManager).Cast<XPathNavigator>().Single();
                     child.SetValue(value.ToString("G17"));
