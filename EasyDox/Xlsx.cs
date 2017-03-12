@@ -29,7 +29,11 @@ namespace EasyDox
                 // Specify the URI of the part to be read
                 PackagePart part = pkg.GetPart(new Uri ("/xl/sharedStrings.xml", UriKind.Relative));
 
-                var sheetParts = pkg.GetParts().Where(p => p.Uri.OriginalString.StartsWith("/xl/worksheets") && p.Uri.OriginalString.EndsWith(".xml"));
+                var sheetParts = pkg.GetParts()
+                    .Where(p => 
+                        p.Uri.OriginalString.StartsWith("/xl/worksheets") && 
+                        p.Uri.OriginalString.EndsWith(".xml"));
+
                 var sheetDocList = new List<XmlDocument>();
                 foreach (var sheet in sheetParts)
                 {
