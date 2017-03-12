@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
-using System.Text.RegularExpressions;
 using System.Xml;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
