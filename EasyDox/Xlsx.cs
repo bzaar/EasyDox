@@ -182,7 +182,7 @@ namespace EasyDox
 
             foreach (XPathNavigator navigator in nodes)
             {
-                yield return new SimpleSharedString(navigator, nsManager);
+                yield return new SimpleSharedString(navigator);
             }
         }
 
@@ -206,12 +206,10 @@ namespace EasyDox
         internal class SimpleSharedString : ISharedString
         {
             private readonly XPathNavigator node;
-            private readonly XmlNamespaceManager namespaceManager;
 
-            public SimpleSharedString(XPathNavigator node, XmlNamespaceManager namespaceManager)
+            public SimpleSharedString(XPathNavigator node)
             {
                 this.node = node;
-                this.namespaceManager = namespaceManager;
             }
 
             string ISharedString.Text
