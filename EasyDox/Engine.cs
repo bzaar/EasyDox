@@ -6,7 +6,7 @@ namespace EasyDox
 {
     public class Engine
     {
-        private readonly Dictionary <string, FunctionDefinition> functions;
+        private readonly Dictionary <string, IFuncN> functions;
 
         /// <summary>
         /// Creates the templating engine with a specified set of user-defined functions.
@@ -18,7 +18,7 @@ namespace EasyDox
                 .ToDictionary (kvp => kvp.Key, kvp => kvp.Value);
         }
 
-        public Engine (Dictionary <string, FunctionDefinition> functions)
+        public Engine (Dictionary <string, IFuncN> functions)
         {
             this.functions = functions;
         }
@@ -80,7 +80,7 @@ namespace EasyDox
                     args.Add (ParsePropertyOrLiteral (arg2));
                 }
 
-                FunctionDefinition def;
+                IFuncN def;
                 if (!functions.TryGetValue (func, out def)) return null;
 
                 if (def.ArgCount != args.Count) return null;

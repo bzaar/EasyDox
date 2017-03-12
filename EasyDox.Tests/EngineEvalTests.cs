@@ -41,9 +41,9 @@ namespace EasyDox.Tests
         {
             var properties = new Properties {{"ФИО Покупателя","Иванов В.П."}};
 
-            var functions = new Dictionary <string, FunctionDefinition> 
+            var functions = new Dictionary <string, IFuncN> 
             {
-                {"родительный", new FunctionDefinition(s => s == "Иванов В.П." ? "Иванова В.П." : "")}
+                {"родительный", new Func1 (s => s == "Иванов В.П." ? "Иванова В.П." : "")}
             };
 
             Assert.AreEqual("Иванова В.П.", new Engine(functions).Eval("ФИО Покупателя (родительный)", properties));
@@ -54,9 +54,9 @@ namespace EasyDox.Tests
         {
             var properties = new Properties {{"Подписант","Иванова В.П."}};
 
-            var functions = new Dictionary <string, FunctionDefinition> 
+            var functions = new Dictionary <string, IFuncN> 
             {
-                {"род как у", new FunctionDefinition((s,r) => s == "действующий" && r == "Иванова В.П." ? "действующая" : "")}
+                {"род как у", new Func2 ((s,r) => s == "действующий" && r == "Иванова В.П." ? "действующая" : "")}
             };
 
             Assert.AreEqual("действующая", new Engine(functions).Eval("\"действующий\" (род как у Подписант)", properties));
@@ -67,9 +67,9 @@ namespace EasyDox.Tests
         {
             var properties = new Properties();
 
-            var functions = new Dictionary <string, FunctionDefinition> 
+            var functions = new Dictionary <string, IFuncN> 
             {
-                {"род как у", new FunctionDefinition((s,r) => "")}
+                {"род как у", new Func2((s,r) => "")}
             };
 
             Assert.AreEqual(null, new Engine(functions).Eval("\"действующий\" (род как у )", properties));
@@ -80,9 +80,9 @@ namespace EasyDox.Tests
         {
             var properties = new Properties {{"Подписант","Иванова В.П."}};
 
-            var functions = new Dictionary <string, FunctionDefinition> 
+            var functions = new Dictionary <string, IFuncN> 
             {
-                {"род как у", new FunctionDefinition((s,r) => "")}
+                {"род как у", new Func2((s,r) => "")}
             };
 
             Assert.AreEqual(null, new Engine(functions).Eval("\"действующий\" (род Подписант)", properties));
@@ -93,10 +93,10 @@ namespace EasyDox.Tests
         {
             var properties = new Properties {{"Подписант","Иванова В.П."}};
 
-            var functions = new Dictionary <string, FunctionDefinition> 
+            var functions = new Dictionary <string, IFuncN> 
             {
-                {"род как у", new FunctionDefinition((s,r) => s == "действующий" && r == "Иванова В.П." ? "действующая" : "")},
-                {"родительный", new FunctionDefinition(s => s == "действующая" ? "действующей" : "")}
+                {"род как у", new Func2((s,r) => s == "действующий" && r == "Иванова В.П." ? "действующая" : "")},
+                {"родительный", new Func1(s => s == "действующая" ? "действующей" : "")}
             };
 
             Assert.AreEqual("действующей", new Engine(functions).Eval("\"действующий\" (род как у Подписант) (родительный)", properties));
@@ -107,9 +107,9 @@ namespace EasyDox.Tests
         {
             var properties = new Properties();
 
-            var functions = new Dictionary <string, FunctionDefinition> 
+            var functions = new Dictionary <string, IFuncN> 
             {
-                {"род как у", new FunctionDefinition((s,r) => s == "беременный" && r == "женщина" ? "беременная" : "")},
+                {"род как у", new Func2((s,r) => s == "беременный" && r == "женщина" ? "беременная" : "")},
             };
 
             Assert.AreEqual("беременная", new Engine(functions).Eval("\"беременный\" (род как у \"женщина\")", properties));

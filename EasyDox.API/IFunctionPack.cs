@@ -4,6 +4,6 @@ namespace EasyDox
 {
     public interface IFunctionPack
     {
-        Dictionary <string, FunctionDefinition> Functions { get; }
+        Dictionary <string, IFuncN> Functions { get; }
     }
 }

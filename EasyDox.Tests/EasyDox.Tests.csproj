@@ -54,6 +54,10 @@
     <Compile Include="XlsxTests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\EasyDox.API\EasyDox.API.csproj">
+      <Project>{939d720c-85b6-4814-a7b8-c30a2717a787}</Project>
+      <Name>EasyDox.API</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EasyDox\EasyDox.csproj">
       <Project>{0A470181-7A69-4288-AAB4-C062E18BDD07}</Project>
       <Name>EasyDox</Name>

@@ -66,13 +66,18 @@
     <Compile Include="ErrorToRussianString.cs" />
     <Compile Include="ExpressionEvaluator.cs" />
     <Compile Include="Expressions.cs" />
-    <Compile Include="IFunctionPack.cs" />
     <Compile Include="IMergeError.cs" />
     <Compile Include="IMergeErrorVisitor.cs" />
     <Compile Include="MissingPropertiesFinder.cs" />
     <Compile Include="Properties.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Xlsx.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EasyDox.API\EasyDox.API.csproj">
+      <Project>{939d720c-85b6-4814-a7b8-c30a2717a787}</Project>
+      <Name>EasyDox.API</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

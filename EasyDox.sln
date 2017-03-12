@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyDox", "EasyDox\EasyDox.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyDox.Tests", "EasyDox.Tests\EasyDox.Tests.csproj", "{C224E6DE-D77A-489E-8C2F-D300C585542C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyDox.API", "EasyDox.API\EasyDox.API.csproj", "{939D720C-85B6-4814-A7B8-C30A2717A787}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C224E6DE-D77A-489E-8C2F-D300C585542C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C224E6DE-D77A-489E-8C2F-D300C585542C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C224E6DE-D77A-489E-8C2F-D300C585542C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{939D720C-85B6-4814-A7B8-C30A2717A787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{939D720C-85B6-4814-A7B8-C30A2717A787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{939D720C-85B6-4814-A7B8-C30A2717A787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{939D720C-85B6-4814-A7B8-C30A2717A787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
