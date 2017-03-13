@@ -1,46 +1,21 @@
-﻿using System.Collections.Generic;
-using System.IO;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace EasyDox
 {
     public class Engine
     {
-        private readonly Dictionary <string, FunctionDefinition> functions;
+        private readonly Dictionary <string, Delegate> functions;
 
         /// <summary>
         /// Creates the templating engine with a specified set of user-defined functions.
         /// </summary>
-        public Engine (params IFunctionPack [] functionPacks)
+        public Engine (params Dictionary<string, Delegate> [] functionPacks)
         {
             this.functions = functionPacks
-                .SelectMany (p => p.Functions)
+                .SelectMany (p => p)
                 .ToDictionary (kvp => kvp.Key, kvp => kvp.Value);
-        }
-
-        public Engine (Dictionary <string, FunctionDefinition> functions)
-        {
-            this.functions = functions;
-        }
-
-        /// <summary>
-        /// Merges the field values into the template specified by <paramref name="templatePath"/> and saves the output to <paramref name="outputPath"/>.
-        /// </summary>
-        /// <param name="fieldValues">A dictionary of field values keyed by field name.</param>
-        /// <param name="templatePath">Path to template docx.</param>
-        /// <param name="outputPath">Path to output docx.</param>
-        /// <returns></returns>
-        public IEnumerable <IMergeError> Merge (string templatePath, Dictionary <string, string> fieldValues, string outputPath)
-        {
-            File.Copy (templatePath, outputPath, true);
-
-            return Docx.MergeInplace(this, outputPath, fieldValues);
-        }
-
-        public IEnumerable<IMergeError> MergeXL(string templatePath, Dictionary<string, string> fieldValues, string outputPath)
-        {
-            File.Copy(templatePath, outputPath, true);
-            return Xlsx.MergeInplace(this, outputPath, fieldValues);
         }
 
         internal string Eval (string expression, Properties properties)
@@ -52,7 +27,7 @@ namespace EasyDox
 
         internal IExpression Parse(string expression)
         {
-            var parts = expression.Split ('(').Select (p => p.Trim());
+            var parts = expression.Split ('(').Select (p => p.Trim()).ToList();
 
             IExpression exp = ParsePropertyOrLiteral (parts.First ());
 
@@ -80,10 +55,10 @@ namespace EasyDox
                     args.Add (ParsePropertyOrLiteral (arg2));
                 }
 
-                FunctionDefinition def;
+                Delegate def;
                 if (!functions.TryGetValue (func, out def)) return null;
 
-                if (def.ArgCount != args.Count) return null;
+                if (def.Method.GetParameters().Length != args.Count) return null;
 
                 exp = new Function (def, args);
             }

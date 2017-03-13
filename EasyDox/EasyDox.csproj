@@ -63,10 +63,10 @@
   <ItemGroup>
     <Compile Include="Docx.cs" />
     <Compile Include="Engine.cs" />
+    <Compile Include="EngineExtensions.cs" />
     <Compile Include="ErrorToRussianString.cs" />
     <Compile Include="ExpressionEvaluator.cs" />
     <Compile Include="Expressions.cs" />
-    <Compile Include="IFunctionPack.cs" />
     <Compile Include="IMergeError.cs" />
     <Compile Include="IMergeErrorVisitor.cs" />
     <Compile Include="MissingPropertiesFinder.cs" />
