@@ -6,6 +6,7 @@ using System.Xml;
 using System.Xml.XPath;
 using System.Text.RegularExpressions;
 using System.Linq;
+using System.Globalization;
 
 namespace EasyDox
 {
@@ -127,7 +128,7 @@ namespace EasyDox
                     if(value != field.Text)
                     {
                         double dresult;
-                        if (Double.TryParse(value.Trim(), out dresult))
+                        if (Double.TryParse(value.Trim(), NumberStyles.Number, CultureInfo.GetCultureInfo("en-US"), out dresult))
                         {
                             foreach(var sheetDoc in sheetDocList)
                             {
@@ -250,7 +251,7 @@ namespace EasyDox
                 get
                 {
                     var child = node.Select("d:v", namespaceManager).Cast<XPathNavigator>().Single();
-                    return Double.Parse(child.Value);
+                    return Double.Parse(child.Value, CultureInfo.InvariantCulture);
                 }
                 set
                 {
@@ -264,7 +265,7 @@ namespace EasyDox
                         }
                     }
                     var child = node.Select("d:v", namespaceManager).Cast<XPathNavigator>().Single();
-                    child.SetValue(value.ToString("G17"));
+                    child.SetValue(value.ToString("G17", CultureInfo.InvariantCulture));
                 }
             }
         }

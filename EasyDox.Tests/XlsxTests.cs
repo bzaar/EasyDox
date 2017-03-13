@@ -160,10 +160,10 @@ namespace EasyDox.Tests
             var sheetDoc2 = new XmlDocument();
             sheetStream.Position = 0;
             sheetDoc2.Load(sheetStream);
-            double dvalue = 1500.03;
+
             var replacements = new Dictionary<string, string>()
             {
-                {"Цена", dvalue.ToString()},
+                {"Цена", "1500.03"},
             };
 
             var sheetDocList = new List<XmlDocument>();
@@ -198,12 +198,14 @@ namespace EasyDox.Tests
                 {"Лицензиат",  "ООО \"Тюльпан\""},
                 {"Дата счета", "8 марта 2017"},
                 {"Продукт", "Право использования библиотеки \"Морфер\""},
-                {"Цена", "1500"},
+                {"Цена", "1500.01"},
             };
 
             var engine = new Engine();
 
-            var errors = engine.MergeXL("Invoice.xlsx", dict, "invoice1.xlsx");
+            var errors = engine.MergeXL(
+                "Invoice.xlsx", dict, 
+                "invoice1.xlsx");
 
             Assert.IsFalse(errors.Any());
         }
