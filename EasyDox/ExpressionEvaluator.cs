@@ -32,7 +32,7 @@ namespace EasyDox
 
         void IExpressionVisitor.Visit(Function function)
         {
-            result = function.Definition.Eval (function.Args.Select (a => new ExpressionEvaluator (properties, a).result).ToArray());
+            result = (string) function.Definition.DynamicInvoke(function.Args.Select (a => (object) new ExpressionEvaluator (properties, a).result).ToArray());
         }
     }
 }
