@@ -30,7 +30,7 @@ namespace EasyDox
             visitor.Visit (this);
         }
 
-        public string Value { get; }
+        public string Value;
     }
 
     /// <summary>
@@ -51,7 +51,7 @@ namespace EasyDox
         /// <summary>
         /// Gets the field name.
         /// </summary>
-        public string Name { get; }
+        public string Name;
     }
 
     class Function : IExpression
@@ -62,9 +62,9 @@ namespace EasyDox
             Args = args;
         }
 
-        public Delegate Definition { get; }
+        public Delegate Definition;
 
-        public IEnumerable <IExpression> Args { get; }
+        public IEnumerable <IExpression> Args;
 
         void IExpression.Accept(IExpressionVisitor visitor)
         {
