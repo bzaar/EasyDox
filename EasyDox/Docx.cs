@@ -28,7 +28,11 @@ namespace EasyDox
                 // Get the document part from the package.
                 // Load the XML in the part into an XmlDocument instance.
                 var xdoc = new XmlDocument ();
-                xdoc.Load (part.GetStream (FileMode.Open, FileAccess.Read));
+
+                using (var partStream = part.GetStream(FileMode.Open, FileAccess.Read))
+                {
+                    xdoc.Load(partStream);
+                }
 
                 var fields = ReplaceMergeFieldsAndReturnMissingFieldNames (xdoc, fieldValues, engine);
 
