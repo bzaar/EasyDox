@@ -10,6 +10,7 @@
         <summary>Generates docx files from templates.</summary>
         <projectUrl>https://github.com/bzaar/EasyDox</projectUrl>
         <licenseUrl>https://github.com/bzaar/EasyDox/blob/master/LICENSE</licenseUrl>
+        <releaseNotes>Fix: unclosed stream caused an error in .NET5</releaseNotes>
     </metadata>
     <files>
         <file src="bin\Release\EasyDox.xml" target="lib\EasyDox.xml" />
