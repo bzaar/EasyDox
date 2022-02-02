@@ -8,17 +8,14 @@ namespace EasyDox
 
         string result;
 
-        public ExpressionEvaluator (Properties properties, IExpression expression)
+        public ExpressionEvaluator(Properties properties, IExpression expression)
         {
             this.properties = properties;
 
-            expression.Accept (this);
+            expression.Accept(this);
         }
 
-        public string Result
-        {
-            get { return result; }
-        }
+        public string Result => result;
 
         void IExpressionVisitor.Visit(Literal literal)
         {
@@ -27,12 +24,13 @@ namespace EasyDox
 
         void IExpressionVisitor.Visit(Field field)
         {
-            result = properties [field.Name];
+            result = properties[field.Name];
         }
 
         void IExpressionVisitor.Visit(Function function)
         {
-            result = (string) function.Definition.DynamicInvoke(function.Args.Select (a => (object) new ExpressionEvaluator (properties, a).result).ToArray());
+            result = (string) function.Definition.DynamicInvoke(function.Args
+                .Select(a => (object) new ExpressionEvaluator(properties, a).result).ToArray());
         }
     }
 }

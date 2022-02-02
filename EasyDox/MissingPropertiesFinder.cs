@@ -6,23 +6,21 @@ namespace EasyDox
     {
         private readonly Properties properties;
 
-        private readonly List <string> missingProperties;
+        private readonly List<string> missingProperties;
 
-        public MissingPropertiesFinder (Properties properties, List <string> missingProperties)
+        public MissingPropertiesFinder(Properties properties, List<string> missingProperties)
         {
             this.properties = properties;
             this.missingProperties = missingProperties;
         }
 
-        void IExpressionVisitor.Visit(Literal literal)
-        {
-        }
+        void IExpressionVisitor.Visit(Literal literal) { }
 
         void IExpressionVisitor.Visit(Field field)
         {
-            if (!properties.ContainsKey (field.Name) && !missingProperties.Contains (field.Name))
+            if (!properties.ContainsKey(field.Name) && !missingProperties.Contains(field.Name))
             {
-                missingProperties.Add (field.Name);
+                missingProperties.Add(field.Name);
             }
         }
 
@@ -30,7 +28,7 @@ namespace EasyDox
         {
             foreach (var arg in function.Args)
             {
-                arg.Accept (this);
+                arg.Accept(this);
             }
         }
     }

@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.IO;
 using System.IO.Packaging;
+using System.Linq;
+using System.Text.RegularExpressions;
 using System.Xml;
 using System.Xml.XPath;
-using System.Text.RegularExpressions;
-using System.Linq;
 
 namespace EasyDox
 {
@@ -19,19 +19,17 @@ namespace EasyDox
         /// <param name="xlsxPath">Template and output path.</param>
         /// <param name="fieldValues">A dictionary of field values keyed by field name.</param>
         /// <returns></returns>
-        public static IEnumerable<IMergeError> MergeInplace(
-            Engine engine, 
-            string xlsxPath,
+        public static IEnumerable<IMergeError> MergeInplace(Engine engine, string xlsxPath,
             Dictionary<string, string> fieldValues)
         {
             using (var pkg = Package.Open(xlsxPath, FileMode.Open, FileAccess.ReadWrite))
             {
                 // Specify the URI of the part to be read
-                PackagePart part = pkg.GetPart(new Uri ("/xl/sharedStrings.xml", UriKind.Relative));
+                PackagePart part = pkg.GetPart(new Uri("/xl/sharedStrings.xml", UriKind.Relative));
 
                 var sheetParts = pkg.GetParts()
-                    .Where(p => 
-                        p.Uri.OriginalString.StartsWith("/xl/worksheets") && 
+                    .Where(p =>
+                        p.Uri.OriginalString.StartsWith("/xl/worksheets") &&
                         p.Uri.OriginalString.EndsWith(".xml"))
                     .ToList();
 
@@ -39,14 +37,20 @@ namespace EasyDox
                 foreach (var sheet in sheetParts)
                 {
                     var sheetDoc = new XmlDocument();
-                    sheetDoc.Load(sheet.GetStream(FileMode.Open, FileAccess.Read));
-                    sheetDocList.Add(sheetDoc);
+                    using (var partStream = sheet.GetStream(FileMode.Open, FileAccess.Read))
+                    {
+                        sheetDoc.Load(partStream);
+                        sheetDocList.Add(sheetDoc);
+                    }
                 }
 
                 // Get the document part from the package.
                 // Load the XML in the part into an XmlDocument instance.
                 var sharedStringsDoc = new XmlDocument();
-                sharedStringsDoc.Load(part.GetStream(FileMode.Open, FileAccess.Read));
+                using (var partStream = part.GetStream(FileMode.Open, FileAccess.Read))
+                {
+                    sharedStringsDoc.Load(partStream);
+                }
 
                 var fields = ReplaceMergeFieldsAndReturnMissingFieldNames(sharedStringsDoc, sheetDocList, fieldValues, engine);
 
@@ -64,7 +68,8 @@ namespace EasyDox
 
         private static void SaveDocPart(PackagePart part, XmlDocument xmlDoc)
         {
-            using (var partWrt = new StreamWriter(part.GetStream(FileMode.Open, FileAccess.Write)))
+            using (var stream = part.GetStream(FileMode.Open, FileAccess.Write))
+            using (var partWrt = new StreamWriter(stream))
             {
                 xmlDoc.Save(partWrt);
             }
@@ -86,7 +91,8 @@ namespace EasyDox
         }
 
         public static IEnumerable<IMergeError> ReplaceMergeFieldsAndReturnMissingFieldNames(
-            XmlDocument sharedStringsDoc, List<XmlDocument> sheetDocList, Dictionary<string, string> replacements, Engine engine)
+            XmlDocument sharedStringsDoc, List<XmlDocument> sheetDocList, Dictionary<string, string> replacements,
+            Engine engine)
         {
             var fields = GetSharedStrings(sharedStringsDoc);
 
@@ -105,7 +111,7 @@ namespace EasyDox
                     var fieldNames = matches.Groups["name"].Captures;
                     var fieldTemplates = matches.Groups["template"].Captures;
 
-                    for(var fieldIdx = 0; fieldIdx < fieldNames.Count; ++fieldIdx )
+                    for (var fieldIdx = 0; fieldIdx < fieldNames.Count; ++fieldIdx)
                     {
                         var fieldName = fieldNames[fieldIdx].ToString();
                         var fieldTemlate = fieldTemplates[fieldIdx].ToString();
@@ -129,12 +135,11 @@ namespace EasyDox
                         }
                     }
 
-                    if(value != field.Text)
+                    if (value != field.Text)
                     {
-                        double dresult;
-                        if (Double.TryParse(value.Trim(), out dresult))
+                        if (double.TryParse(value.Trim(), out double dresult))
                         {
-                            foreach(var sheetDoc in sheetDocList)
+                            foreach (var sheetDoc in sheetDocList)
                             {
                                 var cells = GetStringCells(sheetDoc, stringIdx);
                                 foreach (var cell in cells)
@@ -142,13 +147,14 @@ namespace EasyDox
                                     cell.DoubleValue = dresult;
                                 }
                             }
-                            
+
                             value = "";
                         }
                     }
 
                     field.StringValue = value;
                 }
+
                 ++stringIdx;
             }
 
@@ -162,7 +168,7 @@ namespace EasyDox
 
             XPathNavigator xDocNavigator = xdoc.CreateNavigator();
             //var nodePath = String.Format("//s:worksheet/s:sheetData/s:row/s:cr[s:@t='s'/s:v={0}]", stringIdx);
-            var nodePath = String.Format("//d:sheetData/d:row/d:c[@t='s' and d:v='{0}']", stringIdx);
+            var nodePath = $"//d:sheetData/d:row/d:c[@t='s' and d:v='{stringIdx}']";
             var nodes = xDocNavigator.Select(nodePath, nsManager);
 
             foreach (XPathNavigator navigator in nodes)
@@ -212,29 +218,18 @@ namespace EasyDox
                 this.node = node;
             }
 
-            string ISharedString.Text
-            {
-                // ReSharper disable AssignNullToNotNullAttribute
-                get { return node.InnerXml; }
-                // ReSharper restore AssignNullToNotNullAttribute
-            }
+            string ISharedString.Text => node.InnerXml;
 
             string ISharedString.StringValue
             {
-                get
-                {
-                    return node.Value;
-                }
-                set
-                {
-                    node.SetValue(value);
-                }
+                get => node.Value;
+                set => node.SetValue(value);
             }
         }
 
         internal interface ICell
         {
-            double DoubleValue { get;  set; }
+            double DoubleValue { get; set; }
         }
 
         internal class SimpleCell : ICell
@@ -253,16 +248,18 @@ namespace EasyDox
                 get
                 {
                     var child = node.Select("d:v", namespaceManager).Cast<XPathNavigator>().Single();
-                    return Double.Parse(child.Value);
+
+                    return double.Parse(child.Value);
                 }
                 set
                 {
-                    XmlNode curNode = ((IHasXmlNode)node).GetNode();
+                    XmlNode curNode = ((IHasXmlNode) node).GetNode();
                     XmlAttribute attrib = curNode?.Attributes?["t"];
                     if (attrib != null)
                     {
                         curNode.Attributes.Remove(attrib);
                     }
+
                     var child = node.Select("d:v", namespaceManager).Cast<XPathNavigator>().Single();
                     child.SetValue(value.ToString("G17"));
                 }
