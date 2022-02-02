@@ -5,14 +5,14 @@ namespace EasyDox
 {
     interface IExpression
     {
-        void Accept (IExpressionVisitor visitor);
+        void Accept(IExpressionVisitor visitor);
     }
 
     interface IExpressionVisitor
     {
-        void Visit (Literal literal);
-        void Visit (Field field);
-        void Visit (Function function);
+        void Visit(Literal literal);
+        void Visit(Field field);
+        void Visit(Function function);
     }
 
     /// <summary>
@@ -20,14 +20,14 @@ namespace EasyDox
     /// </summary>
     class Literal : IExpression
     {
-        public Literal (string s)
+        public Literal(string s)
         {
             Value = s;
         }
 
         void IExpression.Accept(IExpressionVisitor visitor)
         {
-            visitor.Visit (this);
+            visitor.Visit(this);
         }
 
         public string Value { get; }
@@ -45,7 +45,7 @@ namespace EasyDox
 
         void IExpression.Accept(IExpressionVisitor visitor)
         {
-            visitor.Visit (this);
+            visitor.Visit(this);
         }
 
         /// <summary>
@@ -56,7 +56,7 @@ namespace EasyDox
 
     class Function : IExpression
     {
-        public Function (Delegate def, IEnumerable<IExpression> args)
+        public Function(Delegate def, IEnumerable<IExpression> args)
         {
             Definition = def;
             Args = args;
@@ -64,11 +64,11 @@ namespace EasyDox
 
         public Delegate Definition { get; }
 
-        public IEnumerable <IExpression> Args { get; }
+        public IEnumerable<IExpression> Args { get; }
 
         void IExpression.Accept(IExpressionVisitor visitor)
         {
-            visitor.Visit (this);
+            visitor.Visit(this);
         }
     }
 }

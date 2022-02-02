@@ -33,7 +33,7 @@ namespace EasyDox.Tests
         public void XlsxRegexMethod3()
         {
             var match = Xlsx.regex.Match("ООО \"Самая лучшая компания\", [[Адрес]] ");
-            
+
             Assert.IsTrue(match.Success);
             Assert.AreEqual("Адрес", match.Groups["name"].Value);
             Assert.AreEqual("[[Адрес]]", match.Groups["template"].Value);
@@ -76,7 +76,8 @@ namespace EasyDox.Tests
         [TestMethod]
         public void XlsxRegexMethod7()
         {
-            var match = Xlsx.regex.Match(" На основании доверенности № [[Доверенность]] в лице [[ Фамилия ]], проживающий по адресу:[[ Адрес]] ");
+            var match = Xlsx.regex.Match(
+                " На основании доверенности № [[Доверенность]] в лице [[ Фамилия ]], проживающий по адресу:[[ Адрес]] ");
             Assert.IsTrue(match.Success);
 
             Assert.AreEqual(3, match.Groups["name"].Captures.Count);
@@ -104,7 +105,9 @@ namespace EasyDox.Tests
             Assert.AreEqual("[[Родительный (Должность представителя Лицензиата) ]]", fields[0].Text);
             Assert.AreEqual("[[ Родительный (ФИО представителя Лицензиата) ]] ", fields[1].Text);
             Assert.AreEqual("[[Полное наименование компании Лицензиата]]", fields[2].Text);
-            Assert.AreEqual("  На основании доверенности № [[Доверенность]] в лице [[ Фамилия ]], проживающий по адресу:[[ Адрес]] ", fields[3].Text);
+            Assert.AreEqual(
+                "  На основании доверенности № [[Доверенность]] в лице [[ Фамилия ]], проживающий по адресу:[[ Адрес]] ",
+                fields[3].Text);
         }
 
         [TestMethod]
@@ -124,7 +127,7 @@ namespace EasyDox.Tests
             var replacements = new Dictionary<string, string>()
             {
                 {"Доверенность", "123-456/АГ"},
-                {"Адрес",  "Петропавловск-Камчатский"},
+                {"Адрес", "Петропавловск-Камчатский"},
                 {"Фамилия", "Иванов И.П."},
             };
 
@@ -134,7 +137,9 @@ namespace EasyDox.Tests
 
             var fields = Xlsx.GetSharedStrings(xdoc2);
 
-            Assert.AreEqual("  На основании доверенности № 123-456/АГ в лице Иванов И.П., проживающий по адресу: Петропавловск-Камчатский ", fields.Single().StringValue);
+            Assert.AreEqual(
+                "  На основании доверенности № 123-456/АГ в лице Иванов И.П., проживающий по адресу: Петропавловск-Камчатский ",
+                fields.Single().StringValue);
         }
 
         [TestMethod]
@@ -195,7 +200,7 @@ namespace EasyDox.Tests
             var dict = new Dictionary<string, string>
             {
                 {"№ счета", "123"},
-                {"Лицензиат",  "ООО \"Тюльпан\""},
+                {"Лицензиат", "ООО \"Тюльпан\""},
                 {"Дата счета", "8 марта 2017"},
                 {"Продукт", "Право использования библиотеки \"Морфер\""},
                 {"Цена", "1500"},

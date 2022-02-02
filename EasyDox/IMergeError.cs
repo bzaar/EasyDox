@@ -2,6 +2,6 @@ namespace EasyDox
 {
     public interface IMergeError
     {
-        string Accept (IMergeErrorVisitor visitor);
+        string Accept(IMergeErrorVisitor visitor);
     }
 }

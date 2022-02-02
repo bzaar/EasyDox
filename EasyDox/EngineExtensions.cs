@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using EasyDox;
+using System.Collections.Generic;
 using System.IO;
-using EasyDox;
 
 public static class EngineExtensions
 {
@@ -22,6 +22,7 @@ public static class EngineExtensions
     public static IEnumerable<IMergeError> MergeXL(this Engine engine, string templatePath, Dictionary<string, string> fieldValues, string outputPath)
     {
         File.Copy(templatePath, outputPath, true);
+
         return Xlsx.MergeInplace(engine, outputPath, fieldValues);
     }
 }

@@ -18,27 +18,29 @@ namespace EasyDox
         /// <param name="docxPath">Template and output path.</param>
         /// <param name="fieldValues">A dictionary of field values keyed by field name.</param>
         /// <returns></returns>
-        public static IEnumerable <IMergeError> MergeInplace (Engine engine, string docxPath, Dictionary <string, string> fieldValues)
+        public static IEnumerable<IMergeError> MergeInplace(Engine engine, string docxPath,
+            Dictionary<string, string> fieldValues)
         {
-            using (var pkg = Package.Open (docxPath, FileMode.Open, FileAccess.ReadWrite))
+            using (var pkg = Package.Open(docxPath, FileMode.Open, FileAccess.ReadWrite))
             {
                 // Specify the URI of the part to be read
-                PackagePart part = pkg.GetPart (new Uri ("/word/document.xml", UriKind.Relative));
+                PackagePart part = pkg.GetPart(new Uri("/word/document.xml", UriKind.Relative));
 
                 // Get the document part from the package.
                 // Load the XML in the part into an XmlDocument instance.
-                var xdoc = new XmlDocument ();
+                var xdoc = new XmlDocument();
 
                 using (var partStream = part.GetStream(FileMode.Open, FileAccess.Read))
                 {
                     xdoc.Load(partStream);
                 }
 
-                var fields = ReplaceMergeFieldsAndReturnMissingFieldNames (xdoc, fieldValues, engine);
+                var fields = ReplaceMergeFieldsAndReturnMissingFieldNames(xdoc, fieldValues, engine);
 
-                using (var partWrt = new StreamWriter (part.GetStream (FileMode.Open, FileAccess.Write)))
+                using (var partStream = part.GetStream(FileMode.Open, FileAccess.Write))
+                using (var partWrt = new StreamWriter(partStream))
                 {
-                    xdoc.Save (partWrt);
+                    xdoc.Save(partWrt);
                 }
 
                 return fields;
@@ -47,9 +49,9 @@ namespace EasyDox
 
         class MergeError : IMergeError
         {
-            private readonly Func <IMergeErrorVisitor, string> callback;
+            private readonly Func<IMergeErrorVisitor, string> callback;
 
-            public MergeError (Func<IMergeErrorVisitor, string> callback)
+            public MergeError(Func<IMergeErrorVisitor, string> callback)
             {
                 this.callback = callback;
             }
@@ -60,42 +62,42 @@ namespace EasyDox
             }
         }
 
-        static IEnumerable <IMergeError> ReplaceMergeFieldsAndReturnMissingFieldNames (XmlDocument xdoc, Dictionary <string, string> dict, Engine engine)
+        static IEnumerable<IMergeError> ReplaceMergeFieldsAndReturnMissingFieldNames(XmlDocument xdoc,
+            Dictionary<string, string> dict, Engine engine)
         {
-            var fields = GetFields (xdoc);
+            var fields = GetFields(xdoc);
 
-            var errors = new List <IMergeError> ();
+            var errors = new List<IMergeError>();
 
-            var properties = new Properties (dict);
+            var properties = new Properties(dict);
 
             foreach (var field in fields)
             {
-                var matches = regex.Match (field.InstrText);
+                var matches = regex.Match(field.InstrText);
 
-                if (matches.Success)
+                if (!matches.Success) continue;
+
+                var fieldName = matches.Groups["name"].Value;
+
+                var format = matches.Groups["format"].Captures;
+
+                var exp = engine.Parse(fieldName);
+
+                if (exp == null)
                 {
-                    var fieldName = matches.Groups ["name"].Value;
+                    errors.Add(new MergeError(v => v.InvalidExpression(fieldName)));
+                }
+                else
+                {
+                    var missingProperties = new List<string>();
 
-                    var format = matches.Groups ["format"].Captures;
+                    properties.FindMissingProperties(exp, missingProperties);
 
-                    var exp = engine.Parse (fieldName);
+                    errors.AddRange(missingProperties.Select(p => new MergeError(v => v.MissingField(p))));
 
-                    if (exp == null)
+                    if (missingProperties.Count == 0) // otherwise Eval will throw
                     {
-                        errors.Add (new MergeError (v => v.InvalidExpression (fieldName)));
-                    }
-                    else
-                    {
-                        var missingProperties = new List <string> ();
-
-                        properties.FindMissingProperties (exp, missingProperties);
-
-                        errors.AddRange (missingProperties.Select (p => new MergeError (v => v.MissingField(p))));
-
-                        if (missingProperties.Count == 0) // otherwise Eval will throw
-                        {
-                            field.Value = ApplyFormat (properties.Eval (exp), format);
-                        }
+                        field.Value = ApplyFormat(properties.Eval(exp), format);
                     }
                 }
             }
@@ -103,61 +105,61 @@ namespace EasyDox
             return errors;
         }
 
-        private static string ApplyFormat (string s, CaptureCollection format)
+        private static string ApplyFormat(string s, CaptureCollection format)
         {
             foreach (Capture capture in format)
             {
-                switch (capture.Value.ToUpperInvariant ())
+                switch (capture.Value.ToUpperInvariant())
                 {
                     case "FIRSTCAP":
-                        s = s.Substring (0,1).ToUpperInvariant () + s.Substring (1);
+                        s = s.Substring(0, 1).ToUpperInvariant() + s.Substring(1);
                         break;
-                } 
+                }
             }
 
             return s;
         }
 
-        internal static IEnumerable <IField> GetFields (XmlDocument xdoc)
+        internal static IEnumerable<IField> GetFields(XmlDocument xdoc)
         {
-            var nsManager = new XmlNamespaceManager (new NameTable ());
-            nsManager.AddNamespace ("w", "http://schemas.openxmlformats.org/wordprocessingml/2006/main");
+            var nsManager = new XmlNamespaceManager(new NameTable());
+            nsManager.AddNamespace("w", "http://schemas.openxmlformats.org/wordprocessingml/2006/main");
 
-            XPathNavigator xDocNavigator = xdoc.CreateNavigator ();
+            XPathNavigator xDocNavigator = xdoc.CreateNavigator();
 
-            var nodes = xDocNavigator.Select ("//w:r[w:fldChar/@w:fldCharType='begin']", 
-                                              nsManager);
+            var nodes = xDocNavigator.Select("//w:r[w:fldChar/@w:fldCharType='begin']",
+                nsManager);
 
             foreach (XPathNavigator navigator in nodes)
             {
-                yield return new ComplexField (navigator, nsManager);
+                yield return new ComplexField(navigator, nsManager);
             }
 
-            var simpleNodes = xDocNavigator.Select ("//w:fldSimple[starts-with(@w:instr,' MERGEFIELD')]", 
-                                                    nsManager);
+            var simpleNodes = xDocNavigator.Select("//w:fldSimple[starts-with(@w:instr,' MERGEFIELD')]",
+                nsManager);
 
             foreach (XPathNavigator navigator in simpleNodes)
             {
-                yield return new SimpleField (navigator, nsManager);
+                yield return new SimpleField(navigator, nsManager);
             }
         }
 
-        internal static readonly Regex regex = new Regex (
+        internal static readonly Regex regex = new Regex(
 
             @"^[\s]*MERGEFIELD[\s]+(?<name>[^\s""]+)|([""](?<name>[^""]+)[""])
             ([\s]*\\\*[\s]*(?<format>\w+))*[\s]*?",
 
-            RegexOptions.Compiled 
-            | RegexOptions.CultureInvariant 
-            | RegexOptions.ExplicitCapture 
-            | RegexOptions.IgnoreCase 
-            | RegexOptions.IgnorePatternWhitespace 
+            RegexOptions.Compiled
+            | RegexOptions.CultureInvariant
+            | RegexOptions.ExplicitCapture
+            | RegexOptions.IgnoreCase
+            | RegexOptions.IgnorePatternWhitespace
             | RegexOptions.Singleline);
 
         internal interface IField
         {
-            string InstrText {get;}
-            string Value {get; set;}
+            string InstrText { get; }
+            string Value { get; set; }
         }
 
         internal class SimpleField : IField
@@ -165,35 +167,21 @@ namespace EasyDox
             private readonly XPathNavigator node;
             private readonly XmlNamespaceManager namespaceManager;
 
-            public SimpleField (XPathNavigator node, XmlNamespaceManager namespaceManager)
+            public SimpleField(XPathNavigator node, XmlNamespaceManager namespaceManager)
             {
                 this.node = node;
                 this.namespaceManager = namespaceManager;
             }
 
-            string IField.InstrText
-            {
-                // ReSharper disable AssignNullToNotNullAttribute
-                get { return node.GetAttribute ("instr", namespaceManager.LookupNamespace ("w")); }
-                // ReSharper restore AssignNullToNotNullAttribute
-            }
+            string IField.InstrText => node.GetAttribute("instr", namespaceManager.LookupNamespace("w"));
 
             string IField.Value
             {
-                get
-                {
-                    return ValueNode.Value;
-                }
-                set
-                {
-                    ValueNode.SetValue (value);
-                }
+                get => ValueNode.Value;
+                set => ValueNode.SetValue(value);
             }
 
-            private XPathNavigator ValueNode
-            {
-                get { return node.Select ("w:r/w:t", namespaceManager).Cast <XPathNavigator> ().Single (); }
-            }
+            private XPathNavigator ValueNode => node.Select("w:r/w:t", namespaceManager).Cast<XPathNavigator>().Single();
         }
 
         internal class ComplexField : IField
@@ -201,7 +189,7 @@ namespace EasyDox
             private readonly XPathNavigator begin;
             private readonly XmlNamespaceManager nsManager;
 
-            public ComplexField (XPathNavigator begin, XmlNamespaceManager nsManager)
+            public ComplexField(XPathNavigator begin, XmlNamespaceManager nsManager)
             {
                 this.begin = begin;
                 this.nsManager = nsManager;
@@ -212,24 +200,24 @@ namespace EasyDox
                 get
                 {
                     // TODO: change this to look for w:fldCharType="separate" and get rid of the hard coded 5.
-                    var nodes = begin.Select ("following-sibling::w:r[position() <= 5]/w:instrText", nsManager);
-                    return String.Join ("", nodes.Cast <XPathNavigator> ().Select (n => n.Value));
+                    var nodes = begin.Select("following-sibling::w:r[position() <= 5]/w:instrText", nsManager);
+
+                    return string.Join("", nodes.Cast<XPathNavigator>().Select(n => n.Value));
                 }
             }
 
             string IField.Value
             {
-                get
-                {
-                    throw new NotImplementedException ();
-                }
+                get => throw new NotImplementedException();
                 set
                 {
-                    var nodes = begin.Select ("following-sibling::w:r[w:fldChar/@w:fldCharType='separate']/following-sibling::w:r/w:t", nsManager);
+                    var nodes = begin.Select(
+                        "following-sibling::w:r[w:fldChar/@w:fldCharType='separate']/following-sibling::w:r/w:t",
+                        nsManager);
 
-                    var mode = nodes.Cast <XPathNavigator> ().First ();
+                    var mode = nodes.Cast<XPathNavigator>().First();
 
-                    mode.SetValue (value);
+                    mode.SetValue(value);
                 }
             }
         }
